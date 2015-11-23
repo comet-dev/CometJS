@@ -1,3 +1,13 @@
 {
-
+  "name": "Comet",
+  "version": "1.0.0",
+  "description": "Comet is a language, and it is simple-to-use for optimal performance",
+  
+  
+  "author": {
+  "name": "Moses Grant",
+  "email": "mosesag0813@github.com",
+  "repo-url": "https://github.com/mosesag0813/comet"
+  }
+  
 }
