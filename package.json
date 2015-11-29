@@ -6,7 +6,6 @@
   
   "devDependencies": {
     "jshint": "^2.6.0",
-    "comet": "^1.0.0"
   },
   
   "scripts": {
