@@ -1,13 +1,14 @@
 {
   "name": "Comet",
+  "description": "Simple to use, text editor",
+  "author": "Moses Grant",
   "version": "1.0.0",
-  "description": "Comet is a language, and it is simple-to-use for optimal performance",
   
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
   
-  "author": {
-  "name": "Moses Grant",
-  "email": "mosesag0813@github.com",
-  "repo-url": "https://github.com/mosesag0813/comet"
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint log-version.js"
   }
-  
 }
