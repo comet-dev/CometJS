@@ -1,7 +1,6 @@
 ![Logo](https://raw.githubusercontent.com/mosesag0813/comet/master/resources/Drawing%20(1).png)
-
 # Comet
-***
+
 ### Build Status
 [![Build Status](https://travis-ci.org/mosesag0813/comet.svg?branch=master)](https://travis-ci.org/mosesag0813/comet)
 
