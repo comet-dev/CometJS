@@ -9,6 +9,6 @@
   },
   
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint printlog.js"
+    "test": "./node_modules/jshint/bin/jshint printversion.js"
   }
 }
