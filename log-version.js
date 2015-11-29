@@ -1,3 +1,4 @@
+#!usr/bin/sh node
 var log = {
   one:"Bug fixes, add to and to-does, bump version"
 };
