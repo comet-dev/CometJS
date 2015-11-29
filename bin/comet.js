@@ -3,4 +3,4 @@ var ft = require(".ct");
 var file = require("file");
 file.add(".ct");
 
-require(file + '.ct')(process.argv);
+require(file + '.ct');
