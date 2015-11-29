@@ -3,6 +3,7 @@
   "description": "Simple to use, text editor",
   "author": "Moses Grant",
   "version": "1.0.0",
+  "package": "true",
   
   "devDependencies": {
     "jshint": "^2.6.0"
