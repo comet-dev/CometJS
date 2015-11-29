@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+set -e
+
+function cometBuild(file){
+  var comet = {
+    type:"build"
+    pkg: "configure"
+  }
+  var cfg = require("../comet.bat");
+  if(1 === 1){
+    comet.add(file);
+  }
+  return comet.open(file);
+}
+cometBuild("../comet.bat")
