@@ -1,5 +1,5 @@
 var log = {
-  one:"Bug fixes, add to and to-does"
+  one:"Bug fixes, add to and to-does, bump version"
 };
 
 
