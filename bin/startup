@@ -1,1 +1,3 @@
-var startup = require("")
+#!/usr/bin/env node
+
+require("src/startup.js").exec(process.argv);
