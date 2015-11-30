@@ -1,5 +1,5 @@
-#! /usr/bin/env node
-set -e
+#!/usr/bin/env node
+
 
 function cometBuild(file){
   var comet = {
