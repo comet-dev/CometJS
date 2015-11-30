@@ -9,6 +9,6 @@
   },
   
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint log-version.js"
+    "test": "log-version.js"
   }
 }
