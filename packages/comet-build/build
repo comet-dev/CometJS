@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+var comet = require("bin/comet");
+var cometBuild = {
+  type: "build",
+  pkg:"comet-build"
+}
+function startBuild(build, file){
+  file.find(comet)
+  if(file === true){
+    cometBuild.build = true;
+  }
+  while(file.find(comet) === true){
+    do {
+      file.push(build);
+    }
+  }
+}
