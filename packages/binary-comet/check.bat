@@ -1,6 +1,5 @@
 @echo off
 echo "Checking for build..."
-chdir /comet-master
-chdir /bin
+chdir "ThisPC\Downloads\comet-master\comet-master\bin\comet"
 find comet
 start comet
