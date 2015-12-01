@@ -6,3 +6,10 @@
 
 An organized, simple-to-use development. It is smooth, and it is easy development.
 > Comet runs on JavaScript.
+
+## Quickstart
+
+```sh
+# npm install for comet
+npm install comet
+```
