@@ -7,6 +7,7 @@
   "devDependencies": {
     "jshint": "^2.6.0",
     "browserify":"<=^12.0"
+    "java-script": "^1.9.0"
   },
   
   "scripts": {
