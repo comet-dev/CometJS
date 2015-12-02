@@ -10,6 +10,6 @@
   
   "scripts": {
     "test": "./node_modules/jshint/bin/jshint log-version.js",
-    "install": "comet"
+    "install": "./bin/comet comet"
   }
 }
