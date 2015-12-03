@@ -1,8 +1,10 @@
 {
   "name": "Comet",
   "description": "Software development at the speed of a comet.",
-  "author": "Moses Grant",
   "version": "1.0.0",
+  "bin": {
+    "comet": "bin/comet"
+  }
   "dependencies": {
    "cometIO":"^1.0.0",
    "look-sort":"^2.3.0",
