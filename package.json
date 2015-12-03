@@ -3,7 +3,7 @@
   "description": "Software development at the speed of a comet.",
   "version": "1.0.0",
   "bin": {
-    "comet": "bin/comet"
+    "comet": "packages/comet-build/build.js"
   },
   "dependencies": {
    "cometIO":"^1.0.0",
