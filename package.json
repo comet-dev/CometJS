@@ -6,8 +6,8 @@
     "comet": "packages/comet-build/build.js"
   },
   "dependencies": {
-   "comet.io":"^1.0.0",
-   "main.js":"^3.1.2"
+   "main.js":"^3.1.2",
+   "comet.io":"^1.0.0"
   },
   
   "devDependencies": {
