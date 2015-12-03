@@ -5,9 +5,6 @@
   "bin": {
     "comet": "packages/comet-build/build.js"
   },
-  "dependencies": {
-   "comet.io":"^1.0.0"
-  },
   
   "devDependencies": {
     "jshint": "^2.6.0",
