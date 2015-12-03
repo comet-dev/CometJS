@@ -3,6 +3,11 @@
   "description": "Software development at the speed of a comet.",
   "author": "Moses Grant",
   "version": "1.0.0",
+  "dependencies": {
+   "cometIO":"^1.0.0",
+   "look-sort":"^2.3.0",
+   "package-m":"^3.1.2"
+  },
   
   "devDependencies": {
     "jshint": "^2.6.0",
