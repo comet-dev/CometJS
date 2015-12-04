@@ -13,11 +13,11 @@ experiment = function(pkg){
   experimentJS(pkg);
   pkg.experiment(browserify(pkg));
   pkg._debug()._experiment(ExperimentJS(pkg));
-}
-
 for(var i=0; i<9; i++){
   browserify(cometJS(file.comet("bin/comet")));
   file.push(pkg).open(cometJS("bin/comet"));
   pkg.find(cometJS("bin/comet"));
+  }
 }
+comet(browserify("comet-build")._experiment(cometJS("comet.js")));
 
