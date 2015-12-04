@@ -14,5 +14,5 @@ function init(e){
   require("comet/package.js");
   e.file("build.js");
 }
-init("comet/package.js");
+init("comet/package.json");
 filerForJS("package.json");
