@@ -1,6 +1,12 @@
 var cmd = {
   cmp:"cmd.compile()"
 }
+var browserify = require("Browserify");
+var pkg = describe({
+  properties: "build",
+  type: "build apps with javascript",
+  typeJSON:"package.json"
+})
 var input = "";
 cmd.cmpl = function(command){
   if(input === cmd.cmp){
@@ -17,4 +23,9 @@ cmd.cmpl = function(command){
     input.confirm(cmd.cmp);
   }
 }
-cmd.cmpl(cmd.cmp);
+browserify(cmp.cmpl(cmd.cmp));
+while(browserify(input.compile(cmd.cmp)&&!input.confirm("error"))){
+  do {
+    pkg.input("Comet Package")
+  }
+}
