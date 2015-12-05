@@ -1,4 +1,17 @@
 {
   "name": "Comet",
-  "version": "1.0.0"
+  "description": "Software development at the speed of a comet.",
+  "version": "1.0.0",
+  "bin": {
+    "comet": "packages/comet-build/build.js"
+  },
+  
+  "devDependencies": {
+    "jshint": "^2.6.0",
+    "browserify": "^12.0.1"
+  },
+  
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint log-version.js"
+  }
 }
