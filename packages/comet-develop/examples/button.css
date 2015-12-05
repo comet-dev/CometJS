@@ -1,3 +1,5 @@
 .button {
- 
+ color: blue;
+ display: "block";
+ text-align:"center";
 }
