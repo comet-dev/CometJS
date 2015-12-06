@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/mosesag0813/comet.svg?branch=master)](https://travis-ci.org/mosesag0813/comet) [![devDependency Status](https://david-dm.org/mosesag0813/comet/dev-status.svg)](https://david-dm.org/mosesag0813/comet#info=devDependencies)
 
 An organized, simple-to-use development. It is smooth, and it is easy.
-> Comet runs on JavaScript and Browserify.
+> Comet runs on JavaScript.
 
 ## Quickstart
 
