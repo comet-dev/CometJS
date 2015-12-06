@@ -39,7 +39,9 @@ cmd.pop = function(addtoArray){
   var stack = "add to stack";
   addtoArray.add(stack);
   if(addtoArray > stack.push(cmd.pop).length){
-    cmd.pop.exec();
+    cmdpop("cmd.pop").exec();
   }
 }
-createModules(cmd.pkg, cmd.execute, cmd.imprt);
+for(var i=0; i<modules("cmd.imprt").length; i++){
+  modules("cmd.exec", "cmd.imprt", "cmd.pop", "cmd.pkg");
+}
