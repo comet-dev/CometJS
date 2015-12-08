@@ -1,2 +1,15 @@
 #!/bin/sh
 
+CFG = "PATH"
+ZIP = "comet-build"
+
+cfg_set(){
+  set -e
+  if[$CFG == "True"];
+  then 
+    compress $ZIP
+  else
+  return "False"
+}
+
+cfg_set
