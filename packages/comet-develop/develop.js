@@ -23,5 +23,7 @@ while(makeDevel(developJS(blp))){
     developJS("log for sdk").enable(developJS(pkg("comet-build")));
   }
 }
-
+if(developJS(sdk.blp) === "comet-develop/boilerplate"){
+  developJS(makeDevel(pkg(sdk).open()));
+}
 
