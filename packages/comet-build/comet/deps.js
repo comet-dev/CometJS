@@ -1,1 +1,1 @@
-
+var dependencies = require("dependencies");
