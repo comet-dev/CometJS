@@ -26,4 +26,8 @@ while(makeDevel(developJS(blp))){
 if(developJS(sdk.blp) === "comet-develop/boilerplate"){
   developJS(makeDevel(pkg(sdk).open()));
 }
+for(var e=0; e<sdk.length;e++){
+  developJS("binary-comet").open("JavaScript Build");
+  pkg.push(sdk.blp)&&developJS("1.0.0").log("version-build");
+}
 
