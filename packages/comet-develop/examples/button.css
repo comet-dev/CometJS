@@ -1,5 +1,1 @@
-.button {
- color: blue;
- display: "block";
- text-align:"center";
-}
+.button {  font-family: Arial;  color: #ffffff;  font-size: 35px;  padding: 10px;  text-decoration: none;  -webkit-border-radius: 28px;  -moz-border-radius: 28px;  border-radius: 28px;  -webkit-box-shadow: 0px 1px 3px #666666;  -moz-box-shadow: 0px 1px 3px #666666;  box-shadow: 0px 1px 3px #666666;  text-shadow: 1px 1px 3px #666666;  border: solid #d91c71 2px;  background: -webkit-gradient(linear, 0 0, 0 100%, from(#fc3f94), to(#fc0574));  background: -moz-linear-gradient(top, #fc3f94, #fc0574);}.button:hover {  background: #e62097;}
