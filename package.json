@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "bin": {
     "comet": "./bin/comet",
-    "startup":"/bin/startup"
+    "startup":"./bin/startup"
   },
   
   "devDependencies": {
@@ -13,8 +13,8 @@
   },
   
   "dependencies": {
-    "ExperimentJS": "1.0.0",
-    "DevelopJS":"1.0.0"
+    "ExperimentJS": "^1.0.0",
+    "DevelopJS":"^1.0.0"
   },
   
   "scripts": {
