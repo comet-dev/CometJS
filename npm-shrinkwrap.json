@@ -1,14 +1,21 @@
 {
+{
   "name": "Comet",
-  "description": "Software development at the speed of a comet.",
+  "description": "Software development for building application",
   "version": "1.0.0",
   "bin": {
-    "comet": "packages/comet-build/build.js"
+    "comet": "./bin/comet",
+    "startup":"./bin/startup"
   },
   
   "devDependencies": {
     "jshint": "^2.6.0",
     "browserify": "^12.0.1"
+  },
+  
+  "dependencies": {
+    "ExperimentJS": "^1.0.0",
+    "DevelopJS":"^1.0.0"
   },
   
   "scripts": {
