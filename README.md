@@ -2,7 +2,7 @@
 # Comet
 
 ### Build Status
-[![Build Status](https://travis-ci.org/mosesag0813/comet.svg?branch=master)](https://travis-ci.org/mosesag0813/comet) [![devDependency Status](https://david-dm.org/mosesag0813/comet/dev-status.svg)](https://david-dm.org/mosesag0813/comet#info=devDependencies)
+[![Build Status](https://travis-ci.org/mosesag0813/comet.svg?branch=master)](https://travis-ci.org/mosesag0813/comet) [![devDependency Status](https://david-dm.org/mosesag0813/comet/dev-status.svg)](https://david-dm.org/mosesag0813/comet#info=devDependencies)[![Dependency Status](https://david-dm.org/mosesag0813/comet.svg)](https://david-dm.org/mosesag0813/comet)
 
 An organized, simple-to-use development. It is smooth, and it is easy.
 > Comet runs on JavaScript.
