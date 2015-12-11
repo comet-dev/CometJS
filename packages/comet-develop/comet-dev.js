@@ -1,3 +1,4 @@
+var develop = require("DevelopJS");
 dev = function(accessories){
   accessories = create({
     builder:"./tools/comet-builder",
