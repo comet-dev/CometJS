@@ -1,4 +1,8 @@
 {
-  "name": "Comet",
-  
+  "name": "comet-folder",
+  "version":"^1.0.3"
+  "author": {
+    "name":"Moses Grant",
+    "email":"mosesgrant3345@gmail.com"
+  }
 }
