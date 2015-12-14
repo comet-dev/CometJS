@@ -7,3 +7,8 @@ customizePackage = function(){
   install(packageContains.experiment).push(console.log("New Dev"));
   console.warn("Customizing package may alter the way the package works.");
 }
+
+init = function(){
+  customizePackage();
+}
+init();
