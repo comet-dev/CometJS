@@ -1,1 +1,13 @@
-var CometPackage = require("../deps.js")
+import CometPackage
+set "Frameworks"
+var CometPackage = require("../deps.js");
+var repo = "";
+if(repo === CometPackage(repo)){
+  repo.push(CometPackage(repo));
+  repo.integrate("Comet Packages to Repo");
+}
+if(CometPackage(repo) === true){
+  repo.alert("Package Integrated")
+}
+
+
