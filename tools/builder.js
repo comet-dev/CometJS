@@ -7,10 +7,12 @@ var cometpkg = {
 var build = {
   test: "build.js"
 }
-builder = function(package){
-  package.integrate(repo);
-  package.push(repo);
-  if(repo === package){
-  
+builder = function(pkg){
+  pkg.integrate(repo);
+  pkg.push(repo);
+  if(repo === pkg){
+    pkg = true;
   }
+  var makeApkg = new cometpkg;
+  var makeAbuild = new build;
 }
