@@ -1,20 +1,23 @@
 {
   "name": "Comet",
+  "description": "Software development for building application",
   "version": "1.0.0",
-  "project-type": "development",
-  "description": "A quality build, and multiplatform development.",
-  "author": {
-    "name": "Moses Grant",
-    "email" : "mosesag0813@github.com",
-    "repo-url":"https://github.com/mosesag0813/ApplesBuild"
+  "bin": {
+    "comet": "./bin/comet",
+    "startup":"./bin/startup"
   },
   
   "devDependencies": {
-     "jshint":"^2.6.0",
-     "browserify":"^12.0.1"
+    "jshint": "^2.6.0",
+    "browserify": "^12.0.1"
+  },
+  
+  "dependencies": {
+    "ExperimentJS": "^1.0.0",
+    "DevelopJS":"^1.0.0"
   },
   
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint main.js"
+    "test": "./node_modules/jshint/bin/jshint log-version.js"
   }
 }
