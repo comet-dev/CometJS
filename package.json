@@ -11,8 +11,8 @@
     "browserify": "^12.0.1"
   },
    "dependencies": {
-    "ExperimentJS": "^1.0.0",
-    "DevelopJS": "^1.0.0"
+    "experimentjs": "^1.0.0",
+    "developjs": "^1.0.0"
   },
   "scripts": {
     "test": "./node_modules/jshint/bin/jshint logversion.js"
