@@ -15,7 +15,7 @@
     "DevelopJS": "^1.0.0"
   },
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint log-version.js"
+    "test": "./node_modules/jshint/bin/jshint build.js"
   },
   "main": "main.js",
   "directories": {
