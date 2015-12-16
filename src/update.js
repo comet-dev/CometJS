@@ -1,4 +1,4 @@
-update = function(){
+update = function(uptodate){
   updateNew = "1.0.0" + "0.0.1";
-  updateNew.push("update");
+  updatetodate.push(updateNew);
 }
