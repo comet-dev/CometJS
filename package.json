@@ -16,20 +16,4 @@
   },
   "scripts": {
     "test": "./node_modules/jshint/bin/jshint logversion.js"
-  },
-  "main": "main.js",
-  "directories": {
-    "doc": "docs",
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mosesag0813/comet.git"
-  },
-  "author": "Moses Grant",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mosesag0813/comet/issues"
-  },
-  "homepage": "https://github.com/mosesag0813/comet#readme"
 }
