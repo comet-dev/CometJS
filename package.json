@@ -10,7 +10,7 @@
     "jshint": "^2.6.0",
     "browserify": "^12.0.1"
   },
-  "dependencies": {
+   "dependencies": {
     "ExperimentJS": "^1.0.0",
     "DevelopJS": "^1.0.0"
   },
