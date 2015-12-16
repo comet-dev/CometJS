@@ -17,3 +17,4 @@
   "scripts": {
     "test": "./node_modules/jshint/bin/jshint main.js"
   }
+}
