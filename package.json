@@ -15,7 +15,7 @@
     "DevelopJS": "^1.0.0"
   },
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint build.js"
+    "test": "./node_modules/jshint/bin/jshint package.js"
   },
   "main": "main.js",
   "directories": {
