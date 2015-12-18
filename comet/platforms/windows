@@ -1,1 +1,10 @@
-#!/usr/bin/env node
+#!/usr/bin/env sh
+set -e
+WINDOWS = "WindowsOS"
+comet = "comet-master"
+if[$WINDOWS == true];
+  then
+  compress /bin
+fi
+  compress "./packages"
+
