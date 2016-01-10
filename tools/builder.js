@@ -1,4 +1,5 @@
 var repo = "";
+var building = require("build.js");
 var cometpkg = {
   source: "GitHub",
   owner: "Comet",
@@ -16,3 +17,7 @@ builder = function(pkg){
   var makeApkg = new cometpkg;
   var makeAbuild = new build;
 }
+building.setTo.intializationMode("$#@");
+building.exec("package").confirm("New Package has been Built");
+
+builder(cometpkg);
