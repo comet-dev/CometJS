@@ -8,8 +8,8 @@
   },
   
   "devDependencies": {
-    "jshint": "^2.7.0",
-    "browserify": "^12.1.0"
+    "jshint": "^2.8.0",
+    "browserify": "^13.0.0"
   },
   
   "dependencies": {
