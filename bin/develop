@@ -11,7 +11,7 @@ develop = function(file){
     file.push(pkg.comet);
   }
   for(var i=0;i<pkg.development;i++){
-    pkg.comet.push(develop.js(file));
+    pkg.comet.push(developJS(file));
     dependencies(developJS(file));
     depedencies.send("DevelopJS", pkg.comet);
   }
