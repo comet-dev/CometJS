@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 set -e
 WINDOWS = "WindowsOS"
+Compatible = "x32 bit version"
 comet = "comet-master"
 if[$WINDOWS == true];
   then
