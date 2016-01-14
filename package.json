@@ -1,23 +1,52 @@
 {
   "name": "comet",
-  "description": "software development for building application",
-  "version": "1.0.3",
-  "bin": {
-    "comet": "./bin/comet",
-    "startup":"./bin/startup"
-  },
+ 
+   "description": "software development for building application",
   
-  "devDependencies": {
-    "jshint": "^2.8.0",
-    "browserify": "^13.0.0"
-  },
+   "version": "1.0.3",
   
-  "dependencies": {
-    "ExperimentJS": "^1.0.0",
-    "DevelopJS":"^1.0.0"
-  },
+   "bin": {
+ 
+            "comet": "./bin/comet",
+    
+            "startup": "./bin/startup"
   
-  "scripts": {
-    "test": "./node_modules/jshint/bin/jshint log-version.js"
-  }
+    },
+  
+    
+    "devDependencies": {
+    
+     
+                        "jshint": "^2.8.0",
+    
+                        "browserify": "^13.0.0"
+  
+    },
+  
+    "dependencies": {
+    
+                       "ExperimentJS": "^1.0.0",
+   
+                       "DevelopJS": "^1.0.0"
+  
+    },
+  
+    "scripts": {
+    "test": "log-version.js"
+  },
+  "main": "main.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mosesag0813/comet.git"
+  },
+  "author": "Moses Grant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mosesag0813/comet/issues"
+  },
+  "homepage": "https://github.com/mosesag0813/comet#readme"
 }
