@@ -9,29 +9,29 @@ var system = {
   systemMac:"OS 7 or later",
   systemWindows:"Windows 8 or later"
 }
-function package(package){
+function packaging(packageOne){
   var requirements = {
     systemMac:"OS 7 or later",
     systemWindows:"Windows 8 or later"
   }
   for(var e=0; e<requirements.length; e++){
-    requirements.add(package);
+    requirements.add(packageOne);
   }
-  if(package === requirements.systemWindows || package === requirements.systemMac){
-    package = true;
+  if(packageOne === requirements.systemWindows || packageOne === requirements.systemMac){
+    packageOne = true;
   } else {
-    package = false;
+    packageOne = false;
     print("Sorry, the build is unable to install due to not meeting the requirements");
   }
 }
 function checkReq(systemA, systemB){
   if(systemA === true || systemB === true){
-    package(systemA);  
+    packaging(systemA);  
   } else {
-    package(systemB); 
+    packaging(systemB); 
   } else if(systemA === false || systemB === false) {
     print("Cannot build repo.");
   }
 }
-package(ApplesBuild);
+packaging("");
 checkReq(requirements.systemMac, requirements.systemWindows);

@@ -11,7 +11,7 @@ makeDevel = function(dir){
       i.create(dir+'find'+developJS(sdk.blp));
     }
     if(dir.blp('cannot process')||!developJS&&!dir.find(dir&&sdk)){
-      console.log('Error 178: Develop not found');
+      console.error('Error 178: Develop not found');
       dir.close(i.create(blp+dir));
       dir.process(developJS(dir));
     }
