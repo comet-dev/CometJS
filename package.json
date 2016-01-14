@@ -1,38 +1,23 @@
 {
-  "name": "comet",
- 
+   "name": "comet",
    "description": "software development for building application",
-  
    "version": "1.0.3",
-  
    "bin": {
- 
-            "comet": "./bin/comet",
-    
-            "startup": "./bin/startup"
-  
+     "comet": "./bin/comet",
+     "startup": "./bin/startup"
     },
-  
-    
     "devDependencies": {
-    
-     
-                        "jshint": "^2.8.0",
-    
-                        "browserify": "^13.0.0"
-  
+       "jshint": "^2.8.0",
+      "browserify": "^13.0.0"
     },
   
     "dependencies": {
-    
-                       "ExperimentJS": "^1.0.0",
-   
-                       "DevelopJS": "^1.0.0"
+       "ExperimentJS": "^1.0.0",
+       "DevelopJS": "^1.0.0"
   
     },
-  
     "scripts": {
-    "test": "log-version.js"
+    "test": "./node_modules/jshint/bin/jshint log-version.js"
   },
   "main": "main.js",
   "directories": {
