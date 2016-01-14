@@ -1,3 +1,37 @@
 #!/usr/bin/env node
 
 set -e
+var usr;
+var ini = require("./update.js")
+var deployJS = require("deploy")
+var comet = require(".comet")
+var publish = require("Publish")
+deploy = function(app){
+  var deployMethods = create({
+    cometPlatform:"Run apps in Comet Cloud",
+    web: "Send to web, for everyone to see! :-)",
+    windows:"Send to windows store"
+  });
+  app.prototype.menu = window.open("Comet Apps");
+  app.prototype.button = comet.button.setTo("desktop-App");
+  // Initalize as Comet app
+  if(usr.confirm(app.send(deployMethods.cometPlatform))){
+    app.require(usr.process.argv(app.describe("Comet Application")).comet(app++; app.call("Scan")));
+    for(usr.require(app.ini(comet.appName("").find("./.comet"))&&app.push("New Server").send("1.100.COMET").ini("New Server 1.100"))){
+      app.create("Comet Packages").ini(usr.prompt("Add comet package?")&& !require("New Server to Store").publish("New App"));
+    } else if(deployMethods.web === true&&!deployMethods.cometPlatform&&deployMethods.windows){
+      app.require("./.comet").process.argv("$send")+require("New Comet Packages");
+      usr.prompt("App Has Been Deployed!")
+    } else if(app.send(deployMethods.windows)&&app.usr.find("account").register()){
+      usr.account.comet("").app("")&&app.register("Windows Store");
+    }
+  }
+}
+
+onInstall = function(e){
+  var server = require("ssl");
+  e.ini(usr.create("New Account")&&register("Account") === false);
+  deploy("").server("1.100.COMET")register().send(deployMethods.cometPlatform)||register().send(deployMethods.web)||register().send(deployMethods.windows);
+  "MSI Installer" = true;
+  e.configure(server.ini()&&process.argv("Install"));
+}
