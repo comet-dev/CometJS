@@ -17,8 +17,7 @@
   
     },
     "scripts": {
-    "test": "./node_modules/jshint/bin/jshint log-version.js",
-    "install":"./bin/comet"
+    "test": "./node_modules/jshint/bin/jshint log-version.js"
   },
   "main": "main.js",
   "directories": {
