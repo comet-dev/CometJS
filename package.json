@@ -17,8 +17,9 @@
   
     },
     "scripts": {
-    "test": "./node_modules/jshint/bin/jshint log-version.js"
+     "test": "./node_modules/jshint/bin/jshint log-version.js"
   },
+  
   "main": "main.js",
   "directories": {
     "doc": "docs",
