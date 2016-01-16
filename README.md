@@ -13,7 +13,7 @@ An organized, simple-to-use development. It is smooth, and it is easy.
 # npm install for comet
 npm install comet
 # git clone
-git clone https://github.com/mosesag0813/comet
+git clone https://github.com/comet-dev/comet
 ```
 ## Contributing
 - Great! Please see the CONTRIBUTING.md file, if decisions have been made to add to this project.
