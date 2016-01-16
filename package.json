@@ -1,6 +1,6 @@
 {
    "name": "comet",
-   "description": "software development for building applications.",
+   "description": "software development for building applications",
    "version": "1.0.3",
    "bin": {
      "comet": "./bin/comet",
