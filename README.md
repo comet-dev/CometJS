@@ -15,6 +15,25 @@ npm install comet
 # git clone
 git clone https://github.com/comet-dev/comet
 ```
+## Example
+```js
+// Import the comet-build package in your JavaScript file.
+var comet = require('comet');
+var build = require('comet-build');
+var js = require('cometJS');
+var server = require('1.100.COMET');
+var deploy =  require('./bin/deploy');
+var CometApp = {
+  type: ["desktop", "comet"],
+  use: ["comet-app.js", "desktop.js"]
+}
+comet.send.appName("(App Name)");
+// Build New Comet App
+var NewApp = new CometApp;
+NewApp.server('1.100.COMET')&&comet.send(NewApp.server('1.100.COMET'));
+comet.serve(NewApp.server('1.100.COMET'))||comet.install().build(NewApp);
+```
+
 ## Contributing
 - Great! Please see the CONTRIBUTING.md file, if decisions have been made to add to this project.
 
