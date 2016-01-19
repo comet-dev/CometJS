@@ -12,10 +12,13 @@ An organized, simple-to-use development. It is smooth, and it is easy.
 ```sh
 # npm install for comet
 npm install comet
+```
+## Github Traditional
+```sh
 # git clone
 git clone https://github.com/comet-dev/comet
 ```
-## Example 
+## Example for Script Building
 ```js
 // Import the comet-build package in your JavaScript file.
 var comet = require('comet');
@@ -36,4 +39,5 @@ comet.NewApp.deploy('1.100.COMET').serve('1.100.COMET');
 ```
 ## Contributing
 - Great! Please see the CONTRIBUTING.md file, if decisions have been made to add to this project.
+- Bugs? Send an issue!
 
