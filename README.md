@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/comet-dev/comet.svg?branch=master)](https://travis-ci.org/comet-dev/comet) [![devDependency Status](https://david-dm.org/comet-dev/comet/dev-status.svg)](https://david-dm.org/mosesag0813/comet#info=devDependencies)[![Dependency Status](https://david-dm.org/comet-dev/comet.svg)](https://david-dm.org/mosesag0813/comet)
 
 An organized, simple-to-use development. It is smooth, and it is easy. 
-> Comet lets run your application, and lets you choose whether you want an 
+> Comet lets run your application, and lets you choose whether you want to deploy on the Web or on Desktop.
 
 ## Quickstart
 
