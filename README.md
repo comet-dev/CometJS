@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/comet-dev/comet.svg?branch=master)](https://travis-ci.org/comet-dev/comet) [![devDependency Status](https://david-dm.org/comet-dev/comet/dev-status.svg)](https://david-dm.org/mosesag0813/comet#info=devDependencies)[![Dependency Status](https://david-dm.org/comet-dev/comet.svg)](https://david-dm.org/mosesag0813/comet)
 
 An organized, simple-to-use development. It is smooth, and it is easy. 
-> Comet runs on JavaScript.
+> Comet lets run your application, and lets you choose whether you want an 
 
 ## Quickstart
 
@@ -15,19 +15,19 @@ npm install comet
 # git clone
 git clone https://github.com/comet-dev/comet
 ```
-## Example
+## Example 
 ```js
 // Import the comet-build package in your JavaScript file.
 var comet = require('comet');
 var build = require('comet-build');
 var js = require('cometJS');
-var server = require('1.100.COMET');
-var deploy =  require('./bin/deploy');
+var server = require('1.100.COMET'); // Server required for web apps
+var deploy =  require('./deploy'); // deploy methods of app
 var CometApp = {
   type: ["desktop", "comet"],
   use: ["comet-app.js", "desktop.js"]
 }
-comet.send.appName("(App Name)");
+comet.send.appName("NewApp");
 // Build New Comet App
 var NewApp = new CometApp;
 NewApp.server('1.100.COMET')&&comet.send(NewApp.server('1.100.COMET'));
