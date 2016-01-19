@@ -32,8 +32,8 @@ comet.send.appName("(App Name)");
 var NewApp = new CometApp;
 NewApp.server('1.100.COMET')&&comet.send(NewApp.server('1.100.COMET'));
 comet.serve(NewApp.server('1.100.COMET'))||comet.install().build(NewApp);
+comet.NewApp.deploy('1.100.COMET').serve('1.100.COMET');
 ```
-
 ## Contributing
 - Great! Please see the CONTRIBUTING.md file, if decisions have been made to add to this project.
 
