@@ -31,3 +31,7 @@ for(var e=0; e<sdk.length;e++){
   pkg.push(sdk.blp)&&developJS("1.0.0").log("version-build");
 }
 
+if("system" === "invalid"&&console.error() === true){
+  developJS.remove(); 
+}
+}
