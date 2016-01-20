@@ -12,6 +12,7 @@ An organized, simple-to-use development. It is smooth, and it is easy.
 ```sh
 # npm install for comet
 npm install comet
+comet init -b
 ```
 ## Github Traditional
 ```sh
