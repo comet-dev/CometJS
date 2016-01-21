@@ -32,7 +32,7 @@ var CometApp = {
   use: ["comet-app.js", "desktop.js"]
 }
 comet.send.appName("NewApp");
-// Build New Comet App
+// Deploy New Comet App
 var NewApp = new CometApp;
 NewApp.server('1.100.COMET')&&comet.send(NewApp.server('1.100.COMET'));
 comet.serve(NewApp.server('1.100.COMET'))||comet.install().build(NewApp);
