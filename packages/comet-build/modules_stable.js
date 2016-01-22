@@ -22,10 +22,18 @@ cmd.cmpl = function(command){
     input.parse(command);
     input.confirm(cmd.cmp);
   }
+  return cmd.cmp.parse()&&cmd.cmp().compile();
 }
 browserify(cmp.cmpl(cmd.cmp));
 while(browserify(input.compile(cmd.cmp)&&!input.confirm("error"))){
   do {
     pkg.input("Comet Package")
   }
+}
+module.exports = function(){
+  export cmd.cmpl;
+  export cmd.cmpl.parse();
+  export cmd.cmpl.compile();
+  
+}
 }
