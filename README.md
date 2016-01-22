@@ -10,14 +10,9 @@ An organized, simple-to-use development. It is smooth, and it is easy.
 ## Quickstart
 
 ```sh
-# npm install for comet
+git clone https://github.com/comet-dev/comet
 npm install comet
 comet new my-app
-```
-## Github Traditional
-```sh
-# git clone
-git clone https://github.com/comet-dev/comet
 ```
 ## Example for Script Building
 ```js
@@ -28,8 +23,8 @@ var js = require('cometJS');
 var server = require('1.100.COMET'); // Server required for web apps
 var deploy =  require('./deploy'); // deploy methods of app
 var CometApp = {
-  type: ["desktop", "comet"],
-  use: ["comet-app.js", "desktop.js"]
+  type: ["web", "comet"],
+  use: ["comet-app.js", "web.js"]
 }
 comet.send.appName("NewApp");
 // Deploy New Comet App
