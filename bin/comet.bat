@@ -2,6 +2,10 @@
 echo "Starting Comet-Dev..."
 start "./bin/comet"
 prompt "Type in repo url."
-if " " echo "Ok, thx :-)"
-exit
+if %url" " echo "Ok, thx :-)"
+
+
+if goto "next setup" echo "" exit
+
+
 
