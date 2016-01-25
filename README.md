@@ -2,7 +2,7 @@
 # Comet
 
 ### Build Status
-[![Build Status](https://travis-ci.org/comet-dev/comet.svg?branch=master)](https://travis-ci.org/comet-dev/comet) [![devDependency Status](https://david-dm.org/comet-dev/comet/dev-status.svg)](https://david-dm.org/mosesag0813/comet#info=devDependencies)[![Dependency Status](https://david-dm.org/comet-dev/comet.svg)](https://david-dm.org/mosesag0813/comet)
+[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?branch=master)](https://travis-ci.org/comet-dev/CometJS) [![devDependency Status](https://david-dm.org/comet-dev/comet/dev-status.svg)](https://david-dm.org/mosesag0813/comet#info=devDependencies)[![Dependency Status](https://david-dm.org/comet-dev/CometJS.svg)](https://david-dm.org/mosesag0813/comet)
 
 What is CometJS? In simple terms, its an organized, simple-to-use framework. It is managable, and it is simple. 
 > Comet lets run your application, and lets you deploy it on the Web.
