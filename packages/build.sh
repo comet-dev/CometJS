@@ -11,3 +11,8 @@ addAPackage(){
   compress $buildPackage
   unzip $buildPackage
 }  
+
+set $buildPackage + mkdir " .comet"
+if[mkdir "correct  " + "find new" set /bin];
+ then 
+ compress ".comet "
