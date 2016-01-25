@@ -14,7 +14,7 @@ deploy = function(app){
   });
   app.prototype.menu = window.open("Comet Apps");
   app.prototype.button = comet.button.setTo("desktop-App");
-  // Initalize as Comet app
+  // Initalize as Comet app (other mumbo jumbo ;-))
   if(usr.confirm(app.send(deployMethods.cometPlatform))){
     app.require(usr.process.argv(app.describe("Comet Application")).comet(app++; app.call("Scan")));
     for(usr.require(app.ini(comet.appName("").find("./.comet"))&&app.push("New Server").send("1.100.COMET").ini("New Server 1.100"))){
@@ -33,5 +33,10 @@ onInstall = function(e){
   e.ini(usr.create("New Account")&&register("Account") === false);
   deploy("").server("1.100.COMET")register().send(deployMethods.cometPlatform)||register().send(deployMethods.web)||register().send(deployMethods.windows);
   "MSI Installer" = true;
-  e.configure(server.ini()&&process.argv("Install"));
+  e.configure(server.ini(e)&&process.argv("Installation" + "/n" e && process.argv("Settings")));
+}
+
+onOpen = function(e){
+  window.open(e);
+ }
 }
