@@ -35,3 +35,14 @@ if("system" === "invalid"&&console.error() === true){
   developJS.remove(); 
 }
 }
+pushToWeb = function(wapp){
+  import wapp;
+  var configure = require('configure');
+  wapp.compile().push();
+  if(wapp === wapp.send("web")&&configure("servers")){
+    developJS(makeDevel(console.log("Configuring servers...")));
+    wapp.find("1.100.COMET")&&wapp.send("Server 100").getElementById();
+    wapp.hasFeature("customizability")
+  }
+}
+}
