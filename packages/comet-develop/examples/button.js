@@ -4,15 +4,18 @@
 *@param button.press
 *@constructor builder.js
 *@author @mosesag0813 (github)
-*@ 
 */
 
 var cometButton = function(){
-button.prototype.press = (function(){
+button.prototype.create = (function(){
   var settings = {
-    button.ui:"",
+    button.name:"",
     html:"button.html",
     css:"button.css"
+  };
+  var createButton = {
+    min:"comet.min.js",
+    name: ""
   };
 /**
 * @alias setup
@@ -20,7 +23,8 @@ button.prototype.press = (function(){
 * @param creates new UI interface with
 * button, button-set and radio button.
 **/
-  return settings.test(settings.button.ui());
+  
+  return settings.test(settings.button.name(""));
 });
   if(!"frameworks" || settings.getElementById("Invalid"){
     throw "Error 104: Files given are invalid"
@@ -40,12 +44,30 @@ button.prototype.press = (function(){
     this.ui.test("web.js");
     this.ui.hasFeature("buttons") && this.ui.getElementsByClassName("button");
   }
-  var frameworks = (function(){
-    var useDependencies = "";
+  
+  //
+  var frameworksJS = (function(){
+    var useElements = {
+      css:"button.css",
+      html:"button.html",
+      js:"button.js",
+      elements:"elements.css"
+    }
+    var buttonUI = this.ui.createElement("button");
+    this.ui.test.StatusOne(useElements.html); 
+    button.prototype.create(useElements.getElementsByClassName("css"));
+    button.prototype.toggle(ui.test(settings));
+    
+    if(!buttonUI || useElements === "Files Unknown" && useElements.getElementById("frameworks") === false)
+    throw "Cannot interpret files"
+    catch(error){
+      settings.find("frameworks");
+    }
+    try {
+      ui.test();
+      if(ui === false){
+        ui.alert("Must get new download");
+      }
+    }
   });
 }
-
-
-
-
-
