@@ -23,14 +23,26 @@ button.prototype.press = (function(){
   return settings.test(settings.button.ui());
 });
   if(!"frameworks" || settings.getElementById("Invalid"){
-    throw "Error 104: Files given not secure"
+    throw "Error 104: Files given are invalid"
     try {
       settings.appendChild();
     }
   }
   // FrameworkJS is a native framework system that uses Comet dependencies.
   
-  button.prototype.toggleON 
+  button.prototype.toggle = function(){
+    var ui = this.ui;
+    var toggle = {
+      statusOne:"on",
+      statusTwo:"off"
+    };
+    this.ui.display = window.open(settings.toggle.status("On"));
+    this.ui.test("web.js");
+    this.ui.hasFeature("buttons") && this.ui.getElementsByClassName("button");
+  }
+  var frameworks = (function(){
+    var useDependencies = "";
+  });
 }
 
 
