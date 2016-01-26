@@ -42,7 +42,7 @@ pushToWeb = function(wapp){
   if(wapp === wapp.send("web")&&configure("servers")){
     developJS(makeDevel(console.log("Configuring servers...")));
     wapp.find("1.100.COMET")&&wapp.send("Server 100").getElementById();
-    wapp.hasFeature("customizability")
+    wapp.hasFeature("customizability");
   }
 }
 }
