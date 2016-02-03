@@ -58,7 +58,7 @@ button.prototype.create = (function(){
     button.prototype.create(useElements.getElementsByClassName("css"));
     button.prototype.toggle(ui.test(settings));
     
-    if(!buttonUI || useElements === "Files Unknown" && useElements.getElementById("frameworks") === false)
+    if(!buttonUI || useElements === "Files Unknown" && useElements.getElementById("frameworks") === false){
     throw "Cannot interpret files"
     catch(error){
       settings.find("frameworks");
@@ -66,8 +66,13 @@ button.prototype.create = (function(){
     try {
       ui.test();
       if(ui === false){
-        ui.alert("Must get new download");
+        ui.alert("Must get new download: 1.0.5");
       }
     }
+  }
+  button.prototype.hover = function(){
+    var mouse = ui.getElementById("Mouse-Over-Button");
+    mouse.backgroundColor = "blue", "red", "green";
+  }
   });
 }
