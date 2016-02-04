@@ -34,6 +34,8 @@ button.prototype.create = (function(){
   }
   // FrameworkJS is a native framework system that uses Comet dependencies.
   
+  // button toggle on/off
+  
   button.prototype.toggle = function(){
     var ui = this.ui;
     var toggle = {
@@ -45,7 +47,9 @@ button.prototype.create = (function(){
     this.ui.hasFeature("buttons") && this.ui.getElementsByClassName("button");
   }
   
-  //
+  // FrameworkJS is a native framework system that uses Comet dependencies.
+  
+  
   var frameworksJS = (function(){
     var useElements = {
       css:"button.css",
@@ -70,9 +74,17 @@ button.prototype.create = (function(){
       }
     }
   }
+  
+  // over-button state
   button.prototype.hover = function(){
     var mouse = ui.getElementById("Mouse-Over-Button");
+    var overButton = {
+      state:"overButton"
+    }
     mouse.backgroundColor = "blue", "red", "green";
+    if(mouse === overButton.state){
+      ui.test()&&overButton.state = true;
+    }
   }
   });
 }
