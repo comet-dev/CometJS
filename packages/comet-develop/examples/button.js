@@ -45,10 +45,14 @@ button.prototype.create = (function(){
     this.ui.display = window.open(settings.toggle.status("On"));
     this.ui.test("web.js");
     this.ui.hasFeature("buttons") && this.ui.getElementsByClassName("button");
+    
+   return toggle.status("off") && toggle.statusOne === false || toggle.statusTwo === true;
   }
   
-  // FrameworkJS is a native framework system that uses Comet dependencies.
-  
+  /** FrameworkJS is a native framework system that uses Comet dependencies.
+   * @constructor button.createNew.ui
+   * @alias button.useNewElements
+   **/
   
   var frameworksJS = (function(){
     var useElements = {
