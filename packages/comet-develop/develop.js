@@ -46,3 +46,7 @@ pushToWeb = function(wapp){
   }
 }
 }
+
+APP.DEVELOP = (function({
+  
+})(APP);
