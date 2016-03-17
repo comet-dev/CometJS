@@ -40,7 +40,7 @@ npm install comet-frmk
 import comet-frmk;
 var framework = require('comet-frmk');
 ```
-# Custom file manager
+## Custom file manager
 Manages all files associated with frameworks.
 ## Contributing
 - Great! Please see the CONTRIBUTING.md file, if decisions have been made to add to this project.
