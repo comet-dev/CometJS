@@ -32,7 +32,6 @@ button.prototype.create = (function(){
       settings.appendChild();
     }
   }
-  // FrameworkJS is a native framework system that uses Comet dependencies.
   
   // button toggle on/off
   
@@ -79,16 +78,16 @@ button.prototype.create = (function(){
     }
   }
   
-  // over-button state
+  // hover state
   button.prototype.hover = function(){
     var mouse = ui.getElementById("Mouse-Over-Button");
     var overButton = {
       state:"overButton"
-    }
-    mouse.backgroundColor = "blue", "red", "green";
+    };
+    mouse.backgroundColor = "blue", "red", "green", "alpha";
     if(mouse === overButton.state){
-      ui.test()&&overButton.state = true;
+      ui.test(overButton.state.push(mouse.backgroundColor)) && overButton.state = true;
     }
-  }
-  });
+  } 
+  }); 
 }
