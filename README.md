@@ -23,21 +23,21 @@ var comet = require('comet');
 var build = require('comet-build');
 var js = require('cometJS');
 var server = require('1.100.COMET'); // Server required for web apps
-var deploy =  require('./deploy'); // deploy methods of app
-var CometApp = {
+var deploy =  require('./deploy'); // deploy elements of app
+var CometApp = { // Clarify the type of app, and use (dependencies)
   type: ["web", "comet"],
   use: ["comet-app.js", "web.js"]
 }
-comet.send.appName("NewApp");
-// Deploy New Comet App
-var NewApp = new CometApp;
-NewApp.server('1.100.COMET')&&comet.send(NewApp.server('1.100.COMET'));
-comet.serve(NewApp.server('1.100.COMET'))||comet.install().build(NewApp);
-comet.NewApp.deploy('1.100.COMET').serve('1.100.COMET');
+comet.send.appName("NewApp"); // Name your app
+// Deployment
+var NewApp = new CometApp; // Make your app an object 
+NewApp.server('1.100.COMET')&&comet.send(NewApp.server('1.100.COMET')); // Send your app to 1.100.COMET
+comet.serve(NewApp.server('1.100.COMET'))||comet.install().build(NewApp); // Comet will install, build, and serve your app to the IP Address
+comet.NewApp.deploy('1.100.COMET').serve('1.100.COMET'); // Deployment
 ```
 ## Comet Frameworks For Your Apps
 ```sh
-npm install comet
+npm install comet-frmk
 ```
 ```js
 import comet-frmk; // Import to Script
@@ -45,7 +45,7 @@ var framework = require('comet-frmk'); // Use as a 'require' variable
 ```
 ## Experimental
 - Comet has not been tested within the desktop...
-- Comet Shell package is not finished.
+- Comet Shell package and commands has not been worked on.
 - Package Manager is being worked on.
 
 ## Contributing
