@@ -1,11 +1,11 @@
 ![Logo](https://raw.githubusercontent.com/mosesag0813/comet/master/resources/Drawing%20(1).png)
 # Comet
 
-### Builds | Badges
+ Builds | Badges
 ---------- | ----------
 Linux/Windows |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?branch=master)](https://travis-ci.org/comet-dev/CometJS) 
-Developments |[![devDependency Status](https://david-dm.org/comet-dev/CometJS/dev-status.svg)](https://david-dm.org/mosesag0813/comet#info=devDependencies)
-Dependencies|[![Dependency Status](https://david-dm.org/comet-dev/CometJS.svg)](https://david-dm.org/mosesag0813/comet)
+ Developments |[![devDependency Status](https://david-dm.org/comet-dev/CometJS/dev-status.svg)](https://david-dm.org/mosesag0813/comet#info=devDependencies)
+  Dependencies|[![Dependency Status](https://david-dm.org/comet-dev/CometJS.svg)](https://david-dm.org/mosesag0813/comet)
 
 What is CometJS? Its an organized,  multi-purpose framework. Comet lets run your web application, and test it on the web. Comet is tested on the JavaScript Platform, within the web. 
 
@@ -45,7 +45,7 @@ var framework = require('comet-frmk'); // Use as a 'require' variable
 ```
 ## Experimental
 - Comet has not been tested within the desktop...
-- Comet Shell package is not within the files.
+- Comet Shell package is not finished.
 - Package Manager is being worked on.
 
 ## Contributing
