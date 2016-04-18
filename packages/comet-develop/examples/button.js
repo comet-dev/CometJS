@@ -73,7 +73,7 @@ button.prototype.create = (function(){
     try {
       ui.test();
       if(ui === false){
-        ui.alert("Must get new download: 1.0.5");
+        ui.alert("Must get new download: " + "version");
       }
     }
   }
