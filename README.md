@@ -7,7 +7,17 @@ Linux/Windows |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?bran
  Developments |[![devDependency Status](https://david-dm.org/comet-dev/CometJS/dev-status.svg)](https://david-dm.org/mosesag0813/comet#info=devDependencies)
   Dependencies|[![Dependency Status](https://david-dm.org/comet-dev/CometJS.svg)](https://david-dm.org/mosesag0813/comet)
 
-What is CometJS? Its an organized,  multi-purpose framework. Comet lets run your web application, and test it on the web. Comet is tested on the JavaScript Platform, within the web. 
+## What is CometJS? 
+
+**C**omet is quick and precise development within your choice of workflow.
+
+**O**ver complications are never a problem, because Comet keeps it simple but lets you do things on your own.
+
+**M**assive development tools, so you can create your apps with tools that meet your standards.
+
+**E**lements keep your apps looking nice, in a more of an organizational structure.
+
+**T**he best of the best, 
 
 ## Quickstart
 
