@@ -41,8 +41,8 @@ var CometApp = { // Clarify the type of app, and use (dependencies)
 comet.send.appName("NewApp"); // Name your app
 // Deployment
 var NewApp = new CometApp; // Make your app an object 
-NewApp.server('1.100.COMET')&&comet.send(NewApp.server('1.100.COMET')); // Send your app to 1.100.COMET
-comet.serve(NewApp.server('1.100.COMET'))||comet.install().build(NewApp); // Comet will install, build, and serve your app to the IP Address
+NewApp.server('1.100.COMET') && comet.send(NewApp.server('1.100.COMET')); // Send your app to 1.100.COMET (Official IP Address)
+comet.serve(NewApp.server('1.100.COMET')) || comet.install().build(NewApp); // Comet will install, build, and serve your app to the IP Address
 comet.NewApp.deploy('1.100.COMET').serve('1.100.COMET'); // Deployment
 ```
 ## Comet Frameworks For Your Apps
