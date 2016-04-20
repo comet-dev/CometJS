@@ -11,9 +11,9 @@ Linux/Windows |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?bran
 
 **C**omet is quick and precise development within your choice of workflow.
 
-**O**ver complications are never a problem, because Comet keeps it simple but lets you do things on your own.
+**O**ver complications are never a problem because Comet keeps it simple, but lets you do things on your own.
 
-**M**assive development tools, so you can create your apps with tools that meet your standards.
+**M**assive development tools, so you can create your apps with tools that work at your level of development.
 
 **E**lements keep your apps looking nice, in a more of an organizational structure.
 
@@ -22,8 +22,11 @@ Linux/Windows |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?bran
 ## Quickstart
 
 ```sh
+# Git Clone
 git clone https://github.com/comet-dev/comet
+# or npm
 npm install comet
+# comet
 comet new my-app
 comet my-app init
 ```
