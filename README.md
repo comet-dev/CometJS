@@ -17,7 +17,7 @@ Linux/Windows |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?bran
 
 **E**lements keep your apps looking nice, in a more of an organizational structure.
 
-**T**he best of the best, 
+**T**he best of the best, all in one repository.
 
 ## Quickstart
 
