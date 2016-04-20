@@ -25,6 +25,7 @@ Linux/Windows |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?bran
 git clone https://github.com/comet-dev/comet
 npm install comet
 comet new my-app
+comet my-app init
 ```
 ## Create a new app as a script
 ```js
