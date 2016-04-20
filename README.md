@@ -47,7 +47,7 @@ comet.NewApp.deploy('1.100.COMET').serve('1.100.COMET'); // Deployment
 ```
 ## Comet Frameworks For Your Apps
 ```sh
-npm install comet-frmk
+cpm install comet-frmk
 ```
 ```js
 import comet-frmk; // Import to Script
@@ -56,7 +56,7 @@ var framework = require('comet-frmk'); // Use as a 'require' variable
 ## Experimental
 - Comet has not been tested within the desktop...
 - Comet Shell package and commands has not been worked on.
-- Package Manager is being worked on.
+
 
 ## Contributing
 - Great! Please see the CONTRIBUTING.md file, if decisions have been made to add to this project.
