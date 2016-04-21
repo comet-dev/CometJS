@@ -1,6 +1,33 @@
 #!/usr/bin/env node
-'use strict'
+'use strict';
 
+/**
+ * @constructor comet
+ * @alias Fixups, Testing, etc.
+ * @param comet.bat 
+ **/
+ use.cometElements = function(){
+   this.comet = comet;
+   this.elements = elements.display;
+   
+   this.elements.parent("CometJS");
+   comet.prototype.configure = function(){
+     this.comet.test("modules.js", "build.js");
+     if(=!this.element === this.comet.test("develop.js")){
+       alert("Error: Can't test components, no DevelopJS devDependencies.");
+       console.error("STOP: COMPONENTS NOT FOUND; CAN'T BE TESTED");
+     }
+     while(this.comet.test("./build.bat", "./build.js") === "running");
+     var state = ["on", "off"];
+     this.element.exec(state[0] && this.element = true);
+     if(=!this.element){
+       this.element = false
+       this.element.test(state[1]);
+     } else {
+       this.comet.status(state[0]);
+     }
+   }
+ }
 
 
 
