@@ -26,6 +26,10 @@
      } else {
        this.comet.status(state[0]);
      }
+     getCometElements.prototype.comet = function(){
+      var useElements = this.comet.display;
+      useElements.find("./packages/comet-develop")
+     }
    }
  }
 
