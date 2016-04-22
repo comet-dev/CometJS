@@ -26,7 +26,9 @@ Linux/Mac |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?branch=m
 git clone https://github.com/comet-dev/comet
 # or npm
 npm install comet
-# comet
+```
+```sh
+# comet  cli
 comet new my-app
 comet my-app init
 ```
