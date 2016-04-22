@@ -43,7 +43,7 @@ var deploy =  require('./deploy'); // deploy elements of app
 var CometApp = { // Clarify the type of app, and use (dependencies)
   type: ["web", "comet"],
   use: ["comet-app.js", "web.js"]
-}
+};
 comet.send.appName("NewApp"); // Name your app
 // Deployment
 var NewApp = new CometApp; // Make your app an object 
