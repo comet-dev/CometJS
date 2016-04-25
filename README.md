@@ -6,20 +6,16 @@
 Linux/Mac |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?branch=master)](https://travis-ci.org/comet-dev/CometJS) 
  Developments |[![devDependency Status](https://david-dm.org/comet-dev/CometJS/dev-status.svg)](https://david-dm.org/mosesag0813/comet#info=devDependencies)
   Dependencies|[![Dependency Status](https://david-dm.org/comet-dev/CometJS.svg)](https://david-dm.org/mosesag0813/comet)
+## Get Started
 
-## What is CometJS? 
+CometJS specializes in not only creating applications, but can possibly act as a platform for packages. However, the packages must be tested on the frameworks. This practically sets it apart from the other popular frameworks, since the package must be valid. Risks follow behind this method, since the package may not be compatible with the platform. To keep the structure of this framework, 
 
-**C**omet is quick and precise development within your choice of workflow.
+To test if your package is valid, use: ```comet test <package>```
 
-**O**ver complications are never a problem because Comet keeps it simple, but lets you do things on your own.
 
-**M**assive development tools, so you can create your apps with tools that work at your level of development.
 
-**E**lements keep your apps looking nice, in a more of an organizational structure.
 
-**T**he best of the best, all in one repository.
-
-## Quickstart
+## Get Started
 
 ```sh
 # Git Clone
@@ -28,41 +24,32 @@ git clone https://github.com/comet-dev/comet
 npm install comet
 ```
 ```sh
-# comet  cli
+# comet cli
 comet new my-app
 comet my-app init
 ```
+
+
+
+
+
+
+
+
+
 ## Builds for Comet Apps/Packages
 
-Currently, there are 3 builds
+Currently, there are 3 builds.
 
-```js
-// Import the comet-build package in your JavaScript file.
-var comet = require('comet');
-var build = require('comet-build');
-var js = require('cometJS');
-var server = require('1.100.COMET'); // Server required for web apps
-var deploy =  require('./deploy'); // deploy elements of app
-var CometApp = { // Clarify the type of app, and use (dependencies)
-  type: ["web", "comet"],
-  use: ["comet-app.js", "web.js"]
-};
-comet.send.appName("NewApp"); // Name your app
-// Deployment
-var NewApp = new CometApp; // Make your app an object 
-NewApp.server('1.100.COMET') && comet.send(NewApp.server('1.100.COMET')); // Send your app to 1.100.COMET (Official IP Address)
-comet.serve(NewApp.server('1.100.COMET')) || comet.install().build(NewApp); // Comet will install, build, and serve your app to the IP Address
-comet.NewApp.deploy('1.100.COMET').serve('1.100.COMET'); // Deployment
-```
+
 ## Comet Frameworks For Your Apps
 ```sh
 cpm install comet-frmk
 ```
-```js
-import comet-frmk; // Import to Script
-var framework = require('comet-frmk'); // Use as a 'require' variable
-```
-## Experimental
+
+## Using the Comet CLI
+For Windows, change the /dir to CometJS
+## Work in Progress
 - Comet has not been tested within the desktop...
 - Comet Shell package and commands has not been worked on.
 
