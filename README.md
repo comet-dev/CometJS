@@ -32,7 +32,10 @@ npm install comet
 comet new my-app
 comet my-app init
 ```
-## Create a new app as a script
+## Builds for Comet Apps/Packages
+
+Currently, there are 3 builds
+
 ```js
 // Import the comet-build package in your JavaScript file.
 var comet = require('comet');
