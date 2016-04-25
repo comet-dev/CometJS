@@ -8,7 +8,7 @@ Linux/Mac |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?branch=m
   Dependencies|[![Dependency Status](https://david-dm.org/comet-dev/CometJS.svg)](https://david-dm.org/mosesag0813/comet)
 ## Get Started
 
-CometJS specializes in not only creating applications, but can possibly act as a platform for packages. However, the packages must be tested on the frameworks. This practically sets it apart from the other popular frameworks, since the package must be valid. Risks follow behind this method, since the package may not be compatible with the platform. To keep the structure of this framework, 
+CometJS specializes in not only creating applications, but can possibly act as a platform for packages. However, the packages must be tested on the frameworks. This practically sets it apart from the other popular frameworks, since the package must be valid. Risks follow behind this method, since the package may not be compatible with the platform. 
 
 To test if your package is valid, use: ```comet test <package>```
 
