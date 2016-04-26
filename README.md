@@ -36,6 +36,5 @@ comet my-app init
 
 
 ## Contributing
-- ASD [CONTRIBUTING.md](https://github.com/comet-dev/CometJS/blob/master/CONTRIBUTING.md) 
 - Bugs? Send an [issue](https://github.com/comet-dev/CometJS/issues)!
-
+- Check out the [CONTRIBUTING.md](https://github.com/comet-dev/CometJS/blob/master/CONTRIBUTING.md) for more information.
