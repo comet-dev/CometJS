@@ -1,8 +1,4 @@
-<p align="center">
-   <a href="http://www.comet-dev.com">
-     <img src="http://nebula.wsimg.com/bd4eb81da0db5a7ebdf585ca67c19549?AccessKeyId=6AF0847A48BE134CF5A5&disposition=0&alloworigin=1" width="270"
-  </a>
-</p>
+[!Comet Logo](http://nebula.wsimg.com/bd4eb81da0db5a7ebdf585ca67c19549?AccessKeyId=6AF0847A48BE134CF5A5&disposition=0&alloworigin=1)](http://www.comet-dev.com)
 
 # Comet
 
@@ -35,7 +31,7 @@ comet my-app init
 - Comet Shell package and commands has not been worked on.
 
 ## Contributing
-- [Issues](https://github.com/comet-dev/CometJS/issues)! are open for discussion!
+- Send an [Issue](https://github.com/comet-dev/CometJS/issues)
 - Check out the [CONTRIBUTING.md](https://github.com/comet-dev/CometJS/blob/master/CONTRIBUTING.md) for more information.
 
 
