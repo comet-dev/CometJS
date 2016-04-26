@@ -1,8 +1,9 @@
 <p align="center">
-<a href="http://www.comet-dev.com">
-<img src="http://nebula.wsimg.com/bd4eb81da0db5a7ebdf585ca67c19549?AccessKeyId=6AF0847A48BE134CF5A5&disposition=0&alloworigin=1" width="270"
-</a>
+   <a href="http://www.comet-dev.com">
+     <img src="http://nebula.wsimg.com/bd4eb81da0db5a7ebdf585ca67c19549?AccessKeyId=6AF0847A48BE134CF5A5&disposition=0&alloworigin=1" width="270"
+  </a>
 </p>
+
 # Comet
 
  Builds | Badges
