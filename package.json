@@ -7,14 +7,13 @@
      "startup": "./bin/startup"
     },
     "devDependencies": {
-       "jshint": "^2.8.0",
+       "jshint": "^2.9.2",
       "browserify": "^13.0.0"
     },
   
     "dependencies": {
        "ExperimentJS": "^1.0.0",
-       "DevelopJS": "^1.0.0"
-  
+       "DevelopJS": "^1.0.5",
     },
     "scripts": {
      "test": "./node_modules/jshint/bin/jshint log-version.js",
