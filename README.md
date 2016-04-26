@@ -11,7 +11,7 @@ Linux/Mac |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?branch=m
 CometJS specializes in creating applications, but can also host them. This practically sets it apart from the other popular frameworks, however, the app must be tested on the web.
 
 To test if your app is valid, use: ```comet test <app>```
-> Note: Don't hate me, but CometJS is still in development (What do you expect, I am the only one working on this :-)).
+> Note: Don't hate me, but CometJS is still in development(what do you expect, I am the only one working on this)!
 
 ## Usage
 
