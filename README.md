@@ -8,20 +8,16 @@ Linux/Mac |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?branch=m
   Dependencies|[![Dependency Status](https://david-dm.org/comet-dev/CometJS.svg)](https://david-dm.org/mosesag0813/comet)
 ## Get Started
 
-CometJS specializes in not only creating applications, but can possibly act as a platform for packages. However, the packages must be tested on the frameworks. This practically sets it apart from the other popular frameworks, since the package must be valid. Risks follow behind this method, since the package may not be compatible with the platform. 
+CometJS specializes in creating applications, but can also host them. This practically sets it apart from the other popular frameworks, however, the app must be tested on the web.
 
-To test if your package is valid, use: ```comet test <package>```
+To test if your app is valid, use: ```comet test <app>```
+> Note: Don't hate me, but CometJS is still in development (What do you expect, I am the only one working on this :-)).
 
+## Usage
 
-
-
-## Get Started
-
+On the contrary, lets keep things **real**. Install the comet-cli and lets get this party rolling!
 ```sh
-# Git Clone
-git clone https://github.com/comet-dev/comet
-# or npm
-npm install comet
+npm install comet-cli
 ```
 ```sh
 # comet cli
@@ -29,32 +25,12 @@ comet new my-app
 comet my-app init
 ```
 
-
-
-
-
-
-
-
-
-## Builds for Comet Apps/Packages
-
-Currently, there are 3 builds.
-
-
-## Comet Frameworks For Your Apps
-```sh
-cpm install comet-frmk
-```
-
-## Using the Comet CLI
-For Windows, change the /dir to CometJS
 ## Work in Progress
 - Comet has not been tested within the desktop...
 - Comet Shell package and commands has not been worked on.
 
 
 ## Contributing
-- Great! Please see the CONTRIBUTING.md file, if decisions have been made to add to this project.
-- Bugs? Send an issue!
+- Great! Please see the [CONTRIBUTING.md](https://github.com/comet-dev/CometJS/blob/master/CONTRIBUTING.md) file, and get started!
+- Bugs? Send an [issue](https://github.com/comet-dev/CometJS/issues)!
 
