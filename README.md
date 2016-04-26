@@ -15,9 +15,10 @@ To test if your app is valid, use: ```comet test <app>```
 
 ## Usage
 
-On the contrary, lets keep things **real**. Install the comet-cli and lets get this party rolling!
+On the contrary, lets keep things **real**. Install CometJS and the comet-cli and lets get this party rolling!
 ```sh
-npm install comet-cli
+npm install cometjs
+npm install cli
 ```
 ```sh
 # comet cli
