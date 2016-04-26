@@ -29,12 +29,12 @@ npm install cli
 comet new my-app
 comet my-app init
 ```
-
 ## Work in Progress
 - Comet has not been tested within the desktop...
 - Comet Shell package and commands has not been worked on.
 
-
 ## Contributing
 - Bugs? Send an [issue](https://github.com/comet-dev/CometJS/issues)!
 - Check out the [CONTRIBUTING.md](https://github.com/comet-dev/CometJS/blob/master/CONTRIBUTING.md) for more information.
+
+
