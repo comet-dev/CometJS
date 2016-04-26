@@ -36,6 +36,6 @@ comet my-app init
 
 
 ## Contributing
-- Check out the [CONTRIBUTING.md](https://github.com/comet-dev/CometJS/blob/master/CONTRIBUTING.md) file to get started.
+-  [CONTRIBUTING.md](https://github.com/comet-dev/CometJS/blob/master/CONTRIBUTING.md)
 - Bugs? Send an [issue](https://github.com/comet-dev/CometJS/issues)!
 
