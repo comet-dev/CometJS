@@ -13,7 +13,7 @@
   
     "dependencies": {
        "ExperimentJS": "^1.0.0",
-       "DevelopJS": "^1.0.5",
+       "DevelopJS": "^1.0.5"
     },
     "scripts": {
      "test": "./node_modules/jshint/bin/jshint log-version.js",
