@@ -35,7 +35,7 @@ comet my-app init
 - Comet Shell package and commands has not been worked on.
 
 ## Contributing
-- [issue](https://github.com/comet-dev/CometJS/issues)!
+- [Issues](https://github.com/comet-dev/CometJS/issues)! are open for discussion!
 - Check out the [CONTRIBUTING.md](https://github.com/comet-dev/CometJS/blob/master/CONTRIBUTING.md) for more information.
 
 
