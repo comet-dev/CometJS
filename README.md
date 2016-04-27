@@ -8,10 +8,12 @@
 
  Builds | Badges
 ---------- | ----------
-Linux/Mac |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?branch=master)](https://travis-ci.org/comet-dev/CometJS) 
+Linux/Mac/Windows |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?branch=master)](https://travis-ci.org/comet-dev/CometJS) 
  Developments |[![devDependency Status](https://david-dm.org/comet-dev/CometJS/dev-status.svg)](https://david-dm.org/mosesag0813/comet#info=devDependencies)
   Dependencies|[![Dependency Status](https://david-dm.org/comet-dev/CometJS.svg)](https://david-dm.org/mosesag0813/comet)
 ## Get Started
+
+CometJS is simple software development for building applications.
 
 CometJS specializes in creating applications, but can also host them. This practically sets it apart from the other popular frameworks, however, the app must be tested on the web. Comet sends your app to a server, but the common server is 1.100.COMET. From there, your app is public and you can share them with the world from the web.
 
