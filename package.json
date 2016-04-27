@@ -9,7 +9,8 @@
     "devDependencies": {
        "jshint": "^2.8.1",
       "browserify": "^13.0.0",
-      "gulp":"^3.9.1"
+      "gulp":"^3.9.1",
+      "grunt":"^3.9.0"
     },
   
     "dependencies": {
@@ -20,6 +21,7 @@
        "client":"^1.0.0",
        "server":"^1.0.0"
     },
+    
     "scripts": {
      "test": "./node_modules/jshint/bin/jshint log-version.js",
      "start":"./node_modules/jshint/bin/jshint comet"
@@ -30,14 +32,17 @@
     "doc": "docs",
     "test": "test"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mosesag0813/comet.git"
   },
+  
   "author": "Moses Grant",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mosesag0813/comet/issues"
   },
+  
   "homepage": "https://github.com/mosesag0813/comet#readme"
 }
