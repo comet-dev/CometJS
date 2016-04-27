@@ -11,10 +11,10 @@ Linux/Mac |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?branch=m
   Dependencies|[![Dependency Status](https://david-dm.org/comet-dev/CometJS.svg)](https://david-dm.org/mosesag0813/comet)
 ## Get Started
 
-CometJS specializes in creating applications, but can also host them. This practically sets it apart from the other popular frameworks, however, the app must be tested on the web.
+CometJS specializes in creating applications, but can also host them. This practically sets it apart from the other popular frameworks, however, the app must be tested on the web. Comet sends your app to a server, but the common server is 1.100.COMET. From there, your app is public and you can share them with the world from the web.
 
 To test if your app is valid, use: ```comet test <app>```
-> Note: Don't hate me, but CometJS is still in development(what do you expect, I am the only one working on this)!
+> Note: Don't hate me, but CometJS is still in development (what do you expect, I am the only one working on this).
 
 ## Usage
 
@@ -28,6 +28,7 @@ npm install cli
 comet new my-app
 comet my-app init
 ```
+
 ## Work in Progress
 - Comet has not been tested within the desktop...
 - Comet Shell package and commands has not been worked on.
