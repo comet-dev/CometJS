@@ -23,7 +23,7 @@
     },
     
     "scripts": {
-     "test": "./node_modules/jshint/bin/jshint log-version.js",
+     "test": "./node_modules/jshint/bin/jshint package.js",
      "start":"./node_modules/jshint/bin/jshint comet"
   },
   
@@ -35,7 +35,7 @@
   
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mosesag0813/comet.git"
+    "url": "git+https://github.com/comet-dev/comet.git"
   },
   
   "author": "Moses Grant",
@@ -44,5 +44,5 @@
     "url": "https://github.com/mosesag0813/comet/issues"
   },
   
-  "homepage": "https://github.com/mosesag0813/comet#readme"
+  "homepage": "http://www.comet-dev.com"
 }
