@@ -9,7 +9,7 @@
     "devDependencies": {
        "jshint": "^2.8.1",
       "browserify": "^13.0.0",
-      "gulp":"^2.9.1"
+      "gulp":"^3.9.1"
     },
   
     "dependencies": {
