@@ -8,17 +8,21 @@
     },
     "devDependencies": {
        "jshint": "^2.8.1",
-      "browserify": "^13.0.0"
+      "browserify": "^13.0.0",
+      "gulp":"^2.9.1"
     },
   
     "dependencies": {
        "ExperimentJS": "^1.0.0",
        "DevelopJS": "^1.0.5",
-       "FrameworkJS": "^1.0.3"
+       "FrameworkJS": "^1.0.3",
+       "cli": "^1.0.1",
+       "client":"^1.0.0",
+       "server":"^1.0.0"
     },
     "scripts": {
      "test": "./node_modules/jshint/bin/jshint log-version.js",
-     "start":"./node_modules/jshint/bin/jshint comet.bat"
+     "start":"./node_modules/jshint/bin/jshint comet"
   },
   
   "main": "main.js",
