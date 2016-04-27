@@ -29,8 +29,8 @@
   
   "main": "main.js",
   "directories": {
-    "doc": "docs",
-    "test": "test"
+    "docs": "docs",
+    "test": "package.js"
   },
   
   "repository": {
