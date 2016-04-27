@@ -30,7 +30,7 @@
   "main": "main.js",
   "directories": {
     "docs": "docs",
-    "test": "package.js"
+    "test": "packaging.js"
   },
   
   "repository": {
