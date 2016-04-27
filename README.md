@@ -22,9 +22,9 @@ To test if your app is valid, use: ```comet test <app>```
 
 ## Usage
 
-On the contrary, lets keep things **real**. Install CometJS and the comet-cli and lets get this party rolling!
+On the contrary, lets keep things **real**. [npm install](https://www.npmjs.com/package/CometJS) CometJS and the comet-cli and lets get this party rolling!
 ```sh
-npm install comet-js
+npm install CometJS
 npm install cli
 ```
 ```sh
