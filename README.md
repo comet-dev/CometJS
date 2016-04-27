@@ -26,7 +26,7 @@ npm install cli
 ```sh
 # comet cli
 comet new my-app
-comet my-app init
+comet serve my-app.comet.com
 ```
 
 ## Work in Progress
