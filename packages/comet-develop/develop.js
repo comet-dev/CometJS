@@ -48,5 +48,7 @@ pushToWeb = function(wapp){
 }
 
 APP.DEVELOP = (function({
+  pushToWeb("");
+  makeDevel("./"+"");
   
 })(APP);
