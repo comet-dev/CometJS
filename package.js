@@ -9,8 +9,8 @@ customizePackage = function(){
   console.warn("Customizing package may alter the way the package works.");
 };
 
-init = function(){
-  customizePackage();
+init = function(e){
+  customizePackage(e);
 };
 
-init();
+init(packageContains);
