@@ -1,6 +1,6 @@
 var packageContains = create({
   init_tool:"./tools/init_tool",
-  experiment:"./tools/experiment.jso"
+  experiment:"./tools/experiment.js"
 });
 
 customizePackage = function(){
