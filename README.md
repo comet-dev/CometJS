@@ -22,20 +22,15 @@ To test if your app is valid, use: ```comet test <app>```
 
 ## Usage
 
-On the contrary, lets keep things **real**. [npm install](https://www.npmjs.com/package/CometJS) CometJS and the comet-cli and lets get this party rolling!
+On the contrary, lets keep things **real**. [npm install](https://www.npmjs.com/package/CometJS) CometJS and lets get this party rolling!
 ```sh
 npm install CometJS
-npm install cli
 ```
 ```sh
 # comet cli
 comet new my-app
 comet serve my-app.comet.com
 ```
-
-## Work in Progress
-- Comet has not been tested within the desktop...
-- Comet Shell package and commands has not been worked on.
 
 ## Contributing
 - Send an [issue](https://github.com/comet-dev/CometJS/issues)!
