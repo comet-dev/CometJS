@@ -3,7 +3,7 @@ var building = require("build.js");
 var cometpkg = {
   source: "GitHub",
   owner: "Comet",
-  comet-repo:"https://github.com/mosesag0813/comet"
+  comet-repo:"https://github.com/comet-dev/comet"
 };
 var build = {
   test: "build.js"
