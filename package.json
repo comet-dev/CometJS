@@ -14,9 +14,7 @@
     },
   
     "dependencies": {
-       "ExperimentJS": "^1.0.0",
-       "DevelopJS": "^1.0.5",
-       "FrameworkJS": "^1.0.3",
+       "ices": "^1.0.0",
        "cli": "^1.0.1",
        "client":"^1.0.0",
        "server":"^1.0.0"
