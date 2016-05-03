@@ -21,9 +21,8 @@ To test if your app is valid, use: ```comet test <app>```
 > Note: Don't hate me, but CometJS is still in development (what do you expect, I am the only one working on this).
 
 ## Usage
-
-On the contrary, lets keep things **real**. [npm install](https://www.npmjs.com/package/CometJS) CometJS and lets get this party rolling!
-```sh
+On the contrary, [npm install](https://www.npmjs.com/package/CometJS) CometJS and get started.
+```
 npm install CometJS
 ```
 ```sh
