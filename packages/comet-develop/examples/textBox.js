@@ -1,2 +1,6 @@
 'use strict'
-var textBox = function
+textBox.prototype.create = function(){
+  var txtb = this.txtb
+  
+  txtb.getElementsByTagName('textbox');
+}
