@@ -6,7 +6,7 @@
 *@author @mosesag0813 (github)
 */
 
-var cometButton = function(){
+cometButton = function(){
 button.prototype.create = function(){
   var settings = {
     button.name:"",
@@ -86,7 +86,10 @@ button.prototype.create = function(){
     mouse.backgroundColor.display = overButton.test(mouse.status("true"));
     if(mouse === overButton.state){
       ui.test(overButton.state.push(mouse.backgroundColor)) && overButton.state = true;
+      ui.innerHTML.test(mouse);
+      
     }
-  } 
+    return overButton.getAttribute(mouse);
+   } 
   }; 
 }
