@@ -30,7 +30,8 @@ npm install CometJS
 comet new my-app
 comet serve my-app.comet.com
 ```
-Still don't believe this works?
+## Still don't believe this works?
+
 Demo - [http://mosesag0813.github.io/Comet-Example](http://mosesag0813.github.io/Comet-Example) 
 ## Contributing
 - Send an [issue](https://github.com/comet-dev/CometJS/issues)!
