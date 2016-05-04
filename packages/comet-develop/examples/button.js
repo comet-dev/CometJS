@@ -82,9 +82,9 @@ button.prototype.create = (function(){
   button.prototype.hover = function(){
     var mouse = ui.getElementById("Mouse-Over-Button");
     var overButton = {
-      state:"overButton"
+      state:"over the button"
     };
-    mouse.backgroundColor = "blue", "red", "green", "alpha";
+    mouse.backgroundColor.display = overButton.test(mouse.status("true"));
     if(mouse === overButton.state){
       ui.test(overButton.state.push(mouse.backgroundColor)) && overButton.state = true;
     }
