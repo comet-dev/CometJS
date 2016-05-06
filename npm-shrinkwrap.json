@@ -1,16 +1,32 @@
 {
-  "name": "Comet",
-  "description": "Software development for building application",
-  "version": "1.0.5",
+  "name": "cometjs",
+  "description": "Software development for building applications",
+  "version": "2.1.0",
   "bin": {
     "comet": "./bin/comet",
     "startup": "./bin/startup"
   },
   "devDependencies": {
-    "jshint": "^2.6.0",
-    "browserify": "^12.0.1"
+    "jshint": "^2.8.1",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "grunt": "0.4.0-rc8"
+  },
+  "dependencies": {
+    "ices": "^1.0.0"
   },
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint log-version.js"
-  }
+    "test": "./node_modules/jshint/bin/jshint package.js",
+    "start": "./node_modules/jshint/bin/jshint comet"
+  },
+  "keywords": [
+     "cometjs",
+     "comet"
+   ],
+  "author": "mosesag0813",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mosesag0813/comet/issues"
+  },
+  "homepage": "http://www.comet-dev.com"
 }
