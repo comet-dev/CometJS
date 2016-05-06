@@ -17,7 +17,7 @@
   "grunt":"^1.0.1"
  },
  
-  "dependencies" : {
+  "dependencies": {
   "lodash":"^4.11.2",
   "ices":"^1.0.0"
  }
