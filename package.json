@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "cometjs",
   "description": "Software development for building applications",
   "version": "1.0.5",
@@ -21,6 +22,30 @@
   "scripts": {
     "test": "./node_modules/jshint/bin/jshint package.js",
     "start": "./node_modules/jshint/bin/jshint comet"
+=======
+   "name": "comet-js",
+   "description": "Software development for building applications",
+   "version": "2.1.0",
+   "bin": {
+     "comet": "./bin/comet",
+     "startup": "./bin/startup"
+    },
+    "devDependencies": {
+      "jshint": "^2.8.1",
+      "browserify": "^13.0.0",
+      "gulp":"^3.9.1",
+      "grunt":"^1.0.1"
+    },
+  
+    "dependencies": {
+       "ices": "^1.0.0",
+       "lodash":"^4.11.2"
+    },
+    
+    "scripts": {
+     "test": "./node_modules/jshint/bin/jshint package.js",
+     "start":"./node_modules/jshint/bin/jshint comet"
+>>>>>>> 82c3e4a38ff5dac62fdc628f5fd3201df90f582f
   },
   "main": "main.js",
   "directories": {
@@ -31,6 +56,14 @@
     "type": "git",
     "url": "git+https://github.com/comet-dev/comet.git"
   },
+<<<<<<< HEAD
+=======
+  
+  "keywords": [
+     "cometjs",
+     "comet"
+   ],
+>>>>>>> 82c3e4a38ff5dac62fdc628f5fd3201df90f582f
   "author": "Moses Grant",
   "license": "ISC",
   "bugs": {

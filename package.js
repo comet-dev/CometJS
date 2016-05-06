@@ -5,7 +5,7 @@ var packageContains = create({
 
 customizePackage = function(){
   var install = require("install");
-  install(packageContains.experiment).push(console.log("New Dev"));
+  install(packageContains.experiment).push(console.log("New Developments"));
   console.warn("Customizing package may alter the way the package works.");
 };
 
