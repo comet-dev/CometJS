@@ -15,9 +15,7 @@
   
     "dependencies": {
        "ices": "^1.0.0",
-       "cli": "^1.0.1",
-       "client":"^1.0.0",
-       "server":"^1.0.0"
+       "lodash":"^1.9.2"
     },
     
     "scripts": {
