@@ -1,5 +1,5 @@
 {
-   "name": "cometjs",
+   "name": "comet-js",
    "description": "Software development for building applications",
    "version": "2.1.0",
    "bin": {
