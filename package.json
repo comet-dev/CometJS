@@ -1,46 +1,40 @@
 {
-   "name": "cometjs",
-   "description": "Software development for building applications",
-   "version": "1.0.4",
-   "bin": {
-     "comet": "./bin/comet",
-     "startup": "./bin/startup"
-    },
-    "devDependencies": {
-       "jshint": "^2.8.1",
-      "browserify": "^13.0.0",
-      "gulp":"^3.9.1",
-      "grunt":"0.4.0-rc8"
-    },
-  
-    "dependencies": {
-       "ices": "^1.0.0",
-       "cli": "^1.0.1",
-       "client":"^1.0.0",
-       "server":"^1.0.0"
-    },
-    
-    "scripts": {
-     "test": "./node_modules/jshint/bin/jshint package.js",
-     "start":"./node_modules/jshint/bin/jshint comet"
+  "name": "cometjs",
+  "description": "Software development for building applications",
+  "version": "1.0.5",
+  "bin": {
+    "comet": "./bin/comet",
+    "startup": "./bin/startup"
   },
-  
+  "devDependencies": {
+    "jshint": "^2.8.1",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "grunt": "0.4.0-rc8"
+  },
+  "dependencies": {
+    "ices": "^1.0.0",
+    "cli": "^1.0.1",
+    "client": "^1.0.0",
+    "server": "^1.0.0"
+  },
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint package.js",
+    "start": "./node_modules/jshint/bin/jshint comet"
+  },
   "main": "main.js",
   "directories": {
     "docs": "docs",
     "test": "test"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comet-dev/comet.git"
   },
-  
   "author": "Moses Grant",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mosesag0813/comet/issues"
   },
-  
   "homepage": "http://www.comet-dev.com"
 }
