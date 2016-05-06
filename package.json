@@ -10,10 +10,11 @@
     "jshint": "^2.8.1",
     "browserify": "^13.0.0",
     "gulp": "^3.9.1",
-    "grunt": "0.4.0-rc8"
+    "grunt": "^1.0.1"
   },
   "dependencies": {
-    "lodash": "^4.11.2"
+    "lodash": "^4.11.2",
+    "ices": "1.0.0"
   },
   "scripts": {
     "test": "./node_modules/jshint/bin/jshint package.js",
