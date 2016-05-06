@@ -37,6 +37,8 @@ onInstall = function(e){
 }
 
 onOpen = function(e){
-  window.open(e);
+  window.open(onInstall(e));
+  window.open(deploy(""));
  }
 }
+onOpen("");
