@@ -1,7 +1,7 @@
  {
     "name": "cometjs",
      "description": "Software development for building applications",
-     "version": "2.1.0",
+     "version": "1.2.3",
      "bin": {
        "comet": "./bin/comet",
        "startup": "./bin/startup"
@@ -10,11 +10,12 @@
          "jshint": "^2.8.1",
         "browserify": "^13.0.0",
         "gulp":"^3.9.1",
-        "grunt":"0.4.0-rc8"
+        "grunt":"^1.0.1"
       },
     
       "dependencies": {
-         "lodash":"^4.11.2"
+         "lodash":"^4.11.2",
+         "ices":"^1.0.0"
       },
       
       "scripts": {
