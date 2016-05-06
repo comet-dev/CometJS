@@ -9,8 +9,8 @@
  Builds | Badges
 ---------- | ----------
 Linux/Mac/Windows |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?branch=master)](https://travis-ci.org/comet-dev/CometJS) 
- Developments |[![devDependency Status](https://david-dm.org/comet-dev/CometJS/dev-status.svg)](https://david-dm.org/mosesag0813/comet#info=devDependencies)
-  Dependencies|[![Dependency Status](https://david-dm.org/comet-dev/CometJS.svg)](https://david-dm.org/mosesag0813/comet)
+ Developments |[![devDependency Status](https://david-dm.org/comet-dev/CometJS/dev-status.svg)](https://david-dm.org/comet-dev/CometJS#info=devDependencies)
+  Dependencies|[![Dependency Status](https://david-dm.org/comet-dev/CometJS.svg)](https://david-dm.org/comet-dev/CometJ)
 ## Get Started
 
 CometJS is simple software development for building applications.
