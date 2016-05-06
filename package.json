@@ -1,7 +1,7 @@
 {
   "name": "cometjs",
   "description": "Software development for building applications",
-  "version": "1.0.5",
+  "version": "2.1.0",
   "bin": {
     "comet": "./bin/comet",
     "startup": "./bin/startup"
