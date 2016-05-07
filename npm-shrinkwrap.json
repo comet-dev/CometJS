@@ -1,5 +1,5 @@
  {
-"name": "cometjs",
+"name": "CometJS",
 "description": "Software development for building applications",
 "version": "1.2.3",
 "bin": {
@@ -17,7 +17,7 @@
   "grunt":"^1.0.1"
  },
   "dependencies": {
-  "lodash":"^4.11.2",
-  "gracefulfs":"^3.0.0"
+  "lodash":"^4.9.0",
+  "commander":"^3.0.0"
  }
 }
