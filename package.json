@@ -13,8 +13,9 @@
     "grunt": "^1.0.1"
   },
   "dependencies": {
-    "lodash": "^4.9.0",
-    "commander":"^2.9.0"
+    "chalk": "^1.0.0",
+    "semver": "^2.3.0",
+    "ices": "^1.0.0"
   },
   "scripts": {
     "test": "./node_modules/jshint/bin/jshint package.js",
