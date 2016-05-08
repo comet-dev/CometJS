@@ -4,11 +4,18 @@
     "type": "git",
     "url": "https://github.com/comet-dev/CometJS.git"
   },
+  "bin": {
+  "comet": "./bin/comet",
+  "startup": "./bin/startup"
+ },
   "description": "Software and app development for the web, through organization of elements.",
   "author": "mosesag0813",
   "version": "1.0.3",
   "devDependencies": {
-    "jshint": "^2.8.0"
+    "jshint": "^2.8.0",
+    "browserify": "^13.0.0",
+    "gulp":"^3.9.1",
+    "grunt":"^1.0.1"
   },
   "scripts": {
     "test": "./node_modules/jshint/bin/jshint package.js"
