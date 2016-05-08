@@ -1,0 +1,6 @@
+@!/usr/cfg/bin ices
+
+# packages.init -
+.comet-build
+.comet-develop
+.https-native
