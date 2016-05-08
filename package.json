@@ -17,6 +17,9 @@
     "gulp":"^3.9.1",
     "grunt":"^1.0.1"
   },
+  "dependencies":{
+    "chalk":"^1.0.0"
+  },
   "scripts": {
     "test": "./node_modules/jshint/bin/jshint package.js"
   }
