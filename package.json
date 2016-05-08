@@ -1,17 +1,14 @@
 {
   "name": "CometJS",
-  "description": "Software development for building applications.",
-  "version": "1.2.3",
-  "bin": {
-    "comet": "./bin/comet",
-    "startup": "./bin/startup"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/comet-dev/comet-dev.git"
   },
+  "description": "Software and app development made for the web.",
+  "author": "mosesag0813",
+  "version": "1.2.3",
   "devDependencies": {
     "jshint": "^2.8.0"
-  },
-  "dependencies": {
-    "chalk": "^1.0.0",
-    "ices": "^1.0.0"
   },
   "scripts": {
     "test": "./node_modules/jshint/bin/jshint package.js"
