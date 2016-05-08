@@ -2,25 +2,15 @@
   "name": "CometJS",
   "repository": {
     "type": "git",
-    "url": "https://github.com/comet-dev/comet-dev.git"
+    "url": "https://github.com/comet-dev/CometJS.git"
   },
-  "description": "Software and app development made for the web.",
+  "description": "Software and app development for the web, through organization of elements.",
   "author": "mosesag0813",
-  "version": "1.2.3",
+  "version": "1.0.3",
   "devDependencies": {
     "jshint": "^2.8.0"
   },
   "scripts": {
     "test": "./node_modules/jshint/bin/jshint package.js"
-  },
-  "keywords": [
-     "cometjs",
-     "comet"
-   ],
-  "author": "mosesag0813",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mosesag0813/comet/issues"
-  },
-  "homepage": "http://www.comet-dev.com"
+  }
 }
