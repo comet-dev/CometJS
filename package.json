@@ -19,9 +19,11 @@
   },
   "dependencies":{
     "chalk":"^1.0.0",
-    "ices":"^1.0.0"
+    "ices":"^1.0.0",
+    "coveralls":"2.11.8"
   },
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint package.js"
+    "test": "./node_modules/jshint/bin/jshint develop",
+    "start":"./node_modules/jshint/bin/jshint comet"
   }
 }
