@@ -21,7 +21,7 @@ Linux/Mac/Windows |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?
 
 CometJS is simple software development for building applications.
 
-CometJS specializes in creating applications, but can also host them. This practically sets it apart from the other popular frameworks, however, the app must be tested on the web. Comet sends your app to a server, but the common server is 1.100.COMET. From there, your app is public and you can share them with the world from the web.
+CometJS specializes in creating applications, but can also host them. This practically sets it apart from the other popular frameworks, however, the app must be tested on the "web". Comet sends your app to a server (through desktop), but the common server is 1.100.COMET. From there, your app is public to share with the world from the "web" (on desktop, web window).
 
 To test if your app is valid, use: ```comet test <app>```
 > Note: Don't hate me, but CometJS is still in development (what do you expect, I am the only one working on this).
@@ -36,6 +36,8 @@ npm install CometJS
 comet new my-app
 comet serve my-app.comet.com
 ```
+# Features
+
 ## Still don't believe this works?
 
 Demo - [http://mosesag0813.github.io/Comet-Example](http://mosesag0813.github.io/Comet-Example) 
