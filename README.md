@@ -26,6 +26,8 @@ CometJS specializes in creating applications, but can also host them. This pract
 To test if your app is valid, use: ```comet test <app>```
 > Note: Don't hate me, but CometJS is still in development (what do you expect, I am the only one working on this).
 
+CometJS is simply front-end development, user interaction in all (Comet's UI), and precise back-end development, with plugins and apis working coherently, in order to keep the easy workflow. 
+
 ## Usage
 On the contrary, [npm install](https://www.npmjs.com/package/CometJS) CometJS and get started.
 ```
@@ -36,7 +38,6 @@ npm install CometJS
 comet new my-app
 comet serve my-app.comet.com
 ```
-# Features
 
 ## Still don't believe this works?
 
