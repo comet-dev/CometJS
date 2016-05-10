@@ -100,7 +100,8 @@ button.prototype.create = function(){
    } 
   button.prototype.test = function(){
    var testButton = this.testButton;
-   testButton.exec(settings.display.status("On"));
+   this.testButton.parse(settings.display.status("On"));
+   this.testButton.exec(button.prototype.hover().click());
   }
 }
 cometButton();
