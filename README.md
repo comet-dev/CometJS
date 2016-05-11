@@ -34,7 +34,7 @@ CometJS is simply front-end development, user interaction in all (Comet's UI), a
 On the contrary, [npm install](https://www.npmjs.com/package/CometJS) CometJS and get started.
 ```sh
 # npm install Comet locally or globally to your PATH
-npm install CometJS
+npm install comet
 ```
 ```sh
 # CLI for creating an app
