@@ -27,10 +27,15 @@ button.prototype.create = function(){
 **/
   return settings.test(settings.createButton.createAttribute("Generate a Button") && createButton.display.firstChild.innerHTML);
  }
-  if("frameworks" === false || settings.getElementById("Invalid"){
-    throw "Error 104: Files given are invalid"
+ 
+  if("frameworks" === false || settings.getElementById("Invalid")){
+    throw "Error 104: Files given are invalid";
     try {
       settings.appendChild();
+    }
+    catch(err){
+      settings.status(err);
+      settings.test(err);
     }
   }
   
