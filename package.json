@@ -1,17 +1,7 @@
-{
-<<<<<<< HEAD
-  "name": "cometjs",
-  "description": "Software development for building applications",
-  "version": "1.1.0",
-  "bin": {
-    "comet": "./bin/comet",
-    "startup": "./bin/startup"
-=======
   "name": "comet",
   "repository": {
     "type": "git",
     "url": "https://github.com/comet-dev/CometJS.git"
->>>>>>> c417683d8228098ab95e6ae9a2372dfb94c0cb7f
   },
   "bin": {
   "comet": "./bin/comet",
@@ -32,7 +22,6 @@
     "coveralls":"2.11.9"
   },
   "scripts": {
-<<<<<<< HEAD
     "test": "./node_modules/jshint/bin/jshint package.js",
     "start": "./node_modules/jshint/bin/jshint comet"
   },
@@ -46,9 +35,3 @@
     "url": "https://github.com/mosesag0813/comet/issues"
   },
   "homepage": "http://www.comet-dev.com"
-=======
-    "test": "./node_modules/jshint/bin/jshint develop",
-    "start":"./node_modules/jshint/bin/jshint comet"
-  }
->>>>>>> c417683d8228098ab95e6ae9a2372dfb94c0cb7f
-}
