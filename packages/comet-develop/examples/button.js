@@ -9,7 +9,7 @@
 cometButton = function(){
 button.prototype.create = function(){
   var settings = {
-    button.name:"",
+    buttonClass:"button",
     html:"button.html",
     css:"button.css"
   };
@@ -17,7 +17,7 @@ button.prototype.create = function(){
   var createButton = {
     minJs:"comet.min.js",
     minCss:"comet.min.css",
-    button-name: ""
+    buttonName:""
   };
 /**
 * @alias setup
@@ -27,7 +27,7 @@ button.prototype.create = function(){
 **/
   return settings.test(settings.createButton.createAttribute("Generate a Button") && createButton.display.firstChild.innerHTML);
  }
-  if(!"frameworks" || settings.getElementById("Invalid"){
+  if("frameworks" === false || settings.getElementById("Invalid"){
     throw "Error 104: Files given are invalid"
     try {
       settings.appendChild();
@@ -38,7 +38,7 @@ button.prototype.create = function(){
   
   button.prototype.toggle = function(){
     var ui = this.ui;
-    var version = "1.0." + ".5"
+    var currentVersion = "1.0.5";
     var toggle = {
       statusOne:"on",
       statusTwo:"off"
@@ -68,7 +68,7 @@ button.prototype.create = function(){
     button.prototype.toggle(ui.test(settings));
     this.ui.prototype.URL.open(useElements.js, useElements.html);
     
-    if(!buttonUI || useElements === "Files Unknown" && useElements.getElementById("frameworks") === false){
+    if(buttonUI === false || useElements === "Files Unknown" && useElements.getElementById("frameworks") === false){
     throw "Cannot interpret files"
     catch(error){
       settings.find("frameworks");
@@ -98,10 +98,14 @@ button.prototype.create = function(){
     }
     return overButton.getAttribute(mouse);
    } 
-  button.prototype.test = function(){
+ button.prototype.testc = function(){
    var testButton = this.testButton;
    this.testButton.parse(settings.display.status("On"));
    this.testButton.exec(button.prototype.hover().click());
+   if(this.testButton.test(button.prototype.create() && button.prototype.toggle() === true)){
+     button.prototype.hover().click();
+   }
   }
+  button.prototype.testc();
 }
 cometButton();
