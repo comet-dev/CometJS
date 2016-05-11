@@ -27,7 +27,7 @@ CometJS specializes in creating applications, but can also host them in a browse
 To test if your app is valid, use: ```comet test <app>```
 > Note: CometJS is still in development!
 
-CometJS is simply front-end development, user interaction in all (Comet's UI), and precise back-end development, with plugins and apis working coherently, in order to keep the easy workflow. 
+CometJS is simply front-end desktop development, user interaction in all (Comet's UI), and precise back-end desktop development, with plugins and apis working coherently, in order to keep the easy workflow. 
 
 
 ## Downloads
@@ -51,6 +51,8 @@ comet serve my-app.comet.com
 
 ## Examples and Quickstart
 Demo Web UI - [http://mosesag0813.github.io/Comet-Example](http://mosesag0813.github.io/Comet-Example) 
+
 Run the See a Comet app in action with ```comet-dev/comet-app-start```
+
 Run the sdk to customize your app (experimental): ```comet-dev/comet-app-sdk```
 
