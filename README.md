@@ -11,30 +11,49 @@
 Linux/Mac/Windows |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?branch=master)](https://travis-ci.org/comet-dev/CometJS) 
  Developments |[![devDependency Status](https://david-dm.org/comet-dev/CometJS/dev-status.svg)](https://david-dm.org/comet-dev/CometJS#info=devDependencies)
   Dependencies|[![Dependency Status](https://david-dm.org/comet-dev/CometJS.svg)](https://david-dm.org/comet-dev/CometJS)
+  
+  Hound Builds | Badges
+  ------------ |----------  
+  Overall | [![bitHound Overall Score](https://www.bithound.io/github/comet-dev/CometJS/badges/score.svg)](https://www.bithound.io/github/comet-dev/CometJS)
+  Developments | [![bitHound Dev Dependencies](https://www.bithound.io/github/comet-dev/CometJS/badges/devDependencies.svg)](https://www.bithound.io/github/comet-dev/CometJS/master/dependencies/npm)
+  Dependencies | [![bitHound Dependencies](https://www.bithound.io/github/comet-dev/CometJS/badges/dependencies.svg)](https://www.bithound.io/github/comet-dev/CometJS/master/dependencies/npm)
+  Code | [![bitHound Code](https://www.bithound.io/github/comet-dev/CometJS/badges/code.svg)](https://www.bithound.io/github/comet-dev/CometJS)
 ## Get Started
 
-CometJS is simple software development for building applications.
+CometJS is simple software development for building desktop applications.
 
-CometJS specializes in creating applications, but can also host them. This practically sets it apart from the other popular frameworks, however, the app must be tested on the web. Comet sends your app to a server, but the common server is 1.100.COMET. From there, your app is public and you can share them with the world from the web.
+CometJS specializes in creating applications, but can also host them in a browser window. This practically sets it apart from the other popular frameworks, however, the app must be tested on the "web". Comet sends your app to a server (through desktop), but the common server is 1.100.COMET. From there, your app is public to share with the world from the "web" (on desktop, web window).
 
 To test if your app is valid, use: ```comet test <app>```
-> Note: Don't hate me, but CometJS is still in development (what do you expect, I am the only one working on this).
+> Note: CometJS is still in development!
 
-## Usage
-On the contrary, [npm install](https://www.npmjs.com/package/CometJS) CometJS and get started.
-```
-npm install CometJS
+CometJS is simply front-end desktop development, user interaction in all (Comet's UI), and precise back-end desktop development, with plugins and apis working coherently in pure javascript in order to keep the easy workflow. 
+
+
+## Downloads
+On the contrary, [npm install](https://www.npmjs.com/package/CometJS) CometJS and get started. In addition, when you install CometJS, be sure you also install it's [cli](https://github.com/comet-dev/cli) as well. 
+```sh
+# npm install Comet locally or globally to your PATH
+npm install comet
+
+# install the cli
+npm install comet-cli
 ```
 ```sh
-# comet cli
+# Example for creating an app
 comet new my-app
+cd my-app
 comet serve my-app.comet.com
 ```
-## Still don't believe this works?
 
-Demo - [http://mosesag0813.github.io/Comet-Example](http://mosesag0813.github.io/Comet-Example) 
 ## Contributing
 - Send an [issue](https://github.com/comet-dev/CometJS/issues)!
-- Check out the [CONTRIBUTING.md](https://github.com/comet-dev/CometJS/blob/master/CONTRIBUTING.md) for more information.
+- Check out the [CONTRIBUTING.md](https://github.com/comet-dev/CometJS/blob/master/CONTRIBUTING.md) for more information on contributing to this project.
 
+## Examples and Quickstart
+Demo Web UI - [http://mosesag0813.github.io/Comet-Example](http://mosesag0813.github.io/Comet-Example) 
+
+Run the See a Comet app in action with ```comet-dev/comet-app-start```
+
+Run the sdk to customize your app (experimental): ```comet-dev/comet-app-sdk```
 

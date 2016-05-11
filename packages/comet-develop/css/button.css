@@ -1,9 +1,12 @@
-.h3 {
-  font-family: "serif", "sans-serif", "cursive", "fantasy", "monospace";
-  font-size: 15px;
-}
-.button {
+button {
   text-align: center;
   display: block;
-  background-color: aqua;
+  background-color: white;
+  border:5px solid aqua;
+  color:blue;
+  transition-duration:0.49s;
+}
+button:hover {
+  background-color:aqua;
+  color:white;
 }

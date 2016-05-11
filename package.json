@@ -1,21 +1,38 @@
 {
+<<<<<<< HEAD
   "name": "cometjs",
   "description": "Software development for building applications",
   "version": "1.1.0",
   "bin": {
     "comet": "./bin/comet",
     "startup": "./bin/startup"
+=======
+  "name": "comet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/comet-dev/CometJS.git"
+>>>>>>> c417683d8228098ab95e6ae9a2372dfb94c0cb7f
   },
+  "bin": {
+  "comet": "./bin/comet",
+  "startup": "./bin/startup"
+ },
+  "description": "Software and app development for the web, through organization of elements.",
+  "author": "mosesag0813",
+  "version": "1.1.3",
   "devDependencies": {
-    "jshint": "^2.8.1",
+    "jshint": "^2.8.0",
     "browserify": "^13.0.0",
-    "gulp": "^3.9.1",
-    "grunt": "0.4.0-rc8"
+    "gulp":"^3.9.1",
+    "grunt":"^1.0.1"
   },
-  "dependencies": {
-    "ices": "^1.0.0"
+  "dependencies":{
+    "chalk":"^1.1.3",
+    "ices":"^1.0.1",
+    "coveralls":"2.11.9"
   },
   "scripts": {
+<<<<<<< HEAD
     "test": "./node_modules/jshint/bin/jshint package.js",
     "start": "./node_modules/jshint/bin/jshint comet"
   },
@@ -29,4 +46,9 @@
     "url": "https://github.com/mosesag0813/comet/issues"
   },
   "homepage": "http://www.comet-dev.com"
+=======
+    "test": "./node_modules/jshint/bin/jshint develop",
+    "start":"./node_modules/jshint/bin/jshint comet"
+  }
+>>>>>>> c417683d8228098ab95e6ae9a2372dfb94c0cb7f
 }
