@@ -29,8 +29,6 @@ To test if your app is valid, use: ```comet test <app>```
 
 CometJS is simply front-end development, user interaction in all (Comet's UI), and precise back-end development, with plugins and apis working coherently, in order to keep the easy workflow. 
 
-## Don't believe this works?
-Demo - [http://mosesag0813.github.io/Comet-Example](http://mosesag0813.github.io/Comet-Example) 
 
 ## Downloads
 On the contrary, [npm install](https://www.npmjs.com/package/CometJS) CometJS and get started.
@@ -49,4 +47,5 @@ comet serve my-app.comet.com
 - Send an [issue](https://github.com/comet-dev/CometJS/issues)!
 - Check out the [CONTRIBUTING.md](https://github.com/comet-dev/CometJS/blob/master/CONTRIBUTING.md) for more information.
 
-
+## Still don't believe this works?
+Demo Web UI - [http://mosesag0813.github.io/Comet-Example](http://mosesag0813.github.io/Comet-Example) 
