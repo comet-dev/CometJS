@@ -1,3 +1,4 @@
+{  
   "name": "comet",
   "repository": {
     "type": "git",
@@ -35,3 +36,4 @@
     "url": "https://github.com/mosesag0813/comet/issues"
   },
   "homepage": "http://www.comet-dev.com"
+}
