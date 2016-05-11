@@ -31,13 +31,15 @@ CometJS is simply front-end development, user interaction in all (Comet's UI), a
 
 
 ## Downloads
-On the contrary, [npm install](https://www.npmjs.com/package/CometJS) CometJS and get started.
+On the contrary, [npm install](https://www.npmjs.com/package/CometJS) CometJS and get started. In addition, when you install CometJS, be sure you also install it's [cli](https://github.com/comet-dev/cli) as well. 
 ```sh
 # npm install Comet locally or globally to your PATH
-npm install comet
+npm install comet 
+# install the cli
+npm install comet-cli
 ```
 ```sh
-# CLI for creating an app
+# Example for creating an app
 comet new my-app
 cd my-app
 comet serve my-app.comet.com
@@ -45,7 +47,10 @@ comet serve my-app.comet.com
 
 ## Contributing
 - Send an [issue](https://github.com/comet-dev/CometJS/issues)!
-- Check out the [CONTRIBUTING.md](https://github.com/comet-dev/CometJS/blob/master/CONTRIBUTING.md) for more information.
+- Check out the [CONTRIBUTING.md](https://github.com/comet-dev/CometJS/blob/master/CONTRIBUTING.md) for more information on contributing to this project.
 
-## Still don't believe this works?
+## Examples and Quickstart
 Demo Web UI - [http://mosesag0813.github.io/Comet-Example](http://mosesag0813.github.io/Comet-Example) 
+Run the See a Comet app in action with ```comet-dev/comet-app-start```
+Run the sdk to customize your app (experimental): ```comet-dev/comet-app-sdk```
+
