@@ -20,26 +20,28 @@ Linux/Mac/Windows |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?
   Code | [![bitHound Code](https://www.bithound.io/github/comet-dev/CometJS/badges/code.svg)](https://www.bithound.io/github/comet-dev/CometJS)
 ## Get Started
 
-CometJS is simple software development for building applications.
+CometJS is simple software development for building desktop applications.
 
-CometJS specializes in creating applications, but can also host them. This practically sets it apart from the other popular frameworks, however, the app must be tested on the "web". Comet sends your app to a server (through desktop), but the common server is 1.100.COMET. From there, your app is public to share with the world from the "web" (on desktop, web window).
+CometJS specializes in creating applications, but can also host them in a browser window. This practically sets it apart from the other popular frameworks, however, the app must be tested on the "web". Comet sends your app to a server (through desktop), but the common server is 1.100.COMET. From there, your app is public to share with the world from the "web" (on desktop, web window).
 
 To test if your app is valid, use: ```comet test <app>```
-> Note: Don't hate me, but CometJS is still in development!
+> Note: CometJS is still in development!
 
 CometJS is simply front-end development, user interaction in all (Comet's UI), and precise back-end development, with plugins and apis working coherently, in order to keep the easy workflow. 
 
 ## Don't believe this works?
 Demo - [http://mosesag0813.github.io/Comet-Example](http://mosesag0813.github.io/Comet-Example) 
 
-## Usage
+## Downloads
 On the contrary, [npm install](https://www.npmjs.com/package/CometJS) CometJS and get started.
 ```sh
+# npm install Comet locally or globally to your PATH
 npm install CometJS
 ```
 ```sh
-# comet cli
+# CLI for creating an app
 comet new my-app
+cd my-app
 comet serve my-app.comet.com
 ```
 
