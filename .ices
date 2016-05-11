@@ -1,6 +1,10 @@
 @!/usr/cfg/bin ices
 
-# packages.init -
+@packages.init -
 .comet-build
 .comet-develop
 .https-native
+
+@packages.comet-develop
+ ./develop.js
+ ./examples/button.js
