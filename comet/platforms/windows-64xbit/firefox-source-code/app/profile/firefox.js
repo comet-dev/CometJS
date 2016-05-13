@@ -1,4 +1,4 @@
-# -*- Mode: Java; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 2 -*-
+/**
 # ***** BEGIN LICENSE BLOCK *****
 # Version: MPL 1.1/GPL 2.0/LGPL 2.1
 #
@@ -34,19 +34,9 @@
 # the terms of any one of the MPL, the GPL or the LGPL.
 #
 # ***** END LICENSE BLOCK *****
-
+**/
 // XXX Toolkit-specific preferences should be moved into toolkit.js
 
-#filter substitution
-
-# SYNTAX HINTS:  dashes are delimiters.  Use underscores instead.
-#  The first character after a period must be alphabetic.
-
-#ifdef XP_UNIX
-#ifndef XP_MACOSX
-#define UNIX_BUT_NOT_MAC
-#endif
-#endif
 
 pref("general.startup.browser", true);
 
@@ -177,13 +167,13 @@ pref("keyword.URL", "chrome://browser-region/locale/region.properties");
 pref("general.useragent.locale", "@AB_CD@");
 pref("general.skins.selectedSkin", "classic/1.0");
 pref("general.useragent.extra.firefox", "@APP_UA_NAME@/@APP_VERSION@");
-
+do {
 pref("general.smoothScroll", false);
 #ifdef UNIX_BUT_NOT_MAC
 pref("general.autoScroll", false);
-#else
+} else {
 pref("general.autoScroll", true);
-#endif
+}
 
 // Whether or not the application should check at startup each time if it 
 // is the default browser.
@@ -203,16 +193,16 @@ pref("browser.warnOnRestart", true);
 pref("browser.fullscreen.autohide", true);
 pref("browser.fullscreen.animateUp", 1);
 
-#ifdef UNIX_BUT_NOT_MAC
+do {
 pref("browser.urlbar.clickSelectsAll", false);
-#else
+} else {
 pref("browser.urlbar.clickSelectsAll", true);
-#endif
-#ifdef UNIX_BUT_NOT_MAC
+}
+do {
 pref("browser.urlbar.doubleClickSelectsAll", true);
-#else
+} else {
 pref("browser.urlbar.doubleClickSelectsAll", false);
-#endif
+}
 pref("browser.urlbar.autoFill", false);
 // 0: Match anywhere (e.g., middle of words)
 // 1: Match on word boundaries and then try matching anywhere
@@ -363,12 +353,12 @@ pref("browser.bookmarks.max_backups",             5);
 
 // Scripts & Windows prefs
 pref("dom.disable_open_during_load",              true);
-#ifdef DEBUG
+do {
 pref("javascript.options.showInConsole",          true);
 pref("general.warnOnAboutConfig",                 false);
-#else
+} else {
 pref("javascript.options.showInConsole",          false);
-#endif
+}
 
 // Make the status bar reliably present and unaffected by pages
 pref("dom.disable_window_open_feature.status",    true);
@@ -443,6 +433,7 @@ pref("intl.menuitems.alwaysappendaccesskeys","chrome://global/locale/intl.proper
 pref("intl.menuitems.insertseparatorbeforeaccesskeys","chrome://global/locale/intl.properties");
 
 // simple gestures support
+do {
 pref("browser.gesture.swipe.left", "Browser:BackOrBackDuplicate");
 pref("browser.gesture.swipe.right", "Browser:ForwardOrForwardDuplicate");
 pref("browser.gesture.swipe.up", "cmd_scrollTop");
@@ -450,10 +441,10 @@ pref("browser.gesture.swipe.down", "cmd_scrollBottom");
 #ifdef XP_MACOSX
 pref("browser.gesture.pinch.latched", true);
 pref("browser.gesture.pinch.threshold", 150);
-#else
+} else {
 pref("browser.gesture.pinch.latched", false);
 pref("browser.gesture.pinch.threshold", 25);
-#endif
+}
 pref("browser.gesture.pinch.out", "cmd_fullZoomEnlarge");
 pref("browser.gesture.pinch.in", "cmd_fullZoomReduce");
 pref("browser.gesture.pinch.out.shift", "cmd_fullZoomReset");
@@ -464,8 +455,9 @@ pref("browser.gesture.twist.right", "");
 pref("browser.gesture.twist.left", "");
 pref("browser.gesture.tap", "cmd_fullZoomReset");
 
+
 // 0=lines, 1=pages, 2=history , 3=text size
-#ifdef XP_MACOSX
+
 // On OS X, if the wheel has one axis only, shift+wheel comes through as a
 // horizontal scroll event. Thus, we can't assign anything other than normal
 // scrolling to shift+wheel.
@@ -704,30 +696,24 @@ pref("urlclassifier.gethashtables", "goog-phish-shavar,goog-malware-shavar");
 // the database.
 pref("urlclassifier.confirm-age", 2700);
 
-#ifdef MOZ_WIDGET_GTK2
-#define RESTRICT_CACHEMAX
-#endif
-#ifdef XP_OS2
-#define RESTRICT_CACHEMAX
-#endif
+
 
 // Maximum size of the sqlite3 cache during an update, in bytes
-#ifdef RESTRICT_CACHEMAX
+
 pref("urlclassifier.updatecachemax", 104857600);
-#else
+
 pref("urlclassifier.updatecachemax", -1);
-#endif
+
 
 // URL for checking the reason for a malware warning.
 pref("browser.safebrowsing.malware.reportURL", "http://safebrowsing.clients.google.com/safebrowsing/diagnostic?client=%NAME%&hl=%LOCALE%&site=");
 
-#endif
 
 pref("browser.EULA.version", 3);
 pref("browser.rights.version", 3);
 pref("browser.rights.3.shown", false);
 
-#ifdef DEBUG
+
 // Don't show the about:rights notification in debug builds.
 pref("browser.rights.override", true);
 #endif
@@ -843,4 +829,3 @@ pref("browser.privatebrowsing.dont_prompt_on_enter", false);
 
 // base url for the wifi geolocation network provider
 pref("geo.wifi.uri", "https://www.google.com/loc/json");
-
