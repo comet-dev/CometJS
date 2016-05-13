@@ -1,6 +1,10 @@
-'use strict'
+"use strict";
+
 textBox.prototype.create = function(){
-  var txtb = this.txtb
+  var txtb = this.txtb;
+  var expand = require('../expand.min.js');
   
-  txtb.getElementsByTagName('textbox');
+  this.txtb.getElementsByName('textbox');
+  || this.txtb.click('bottom-corner');
+     this.txtb.expand(this.txtb.click('bottom-corner') && this.txtb.createElement('expand'));
 }
