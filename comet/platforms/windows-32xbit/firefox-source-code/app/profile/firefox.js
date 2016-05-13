@@ -1,4 +1,4 @@
-# -*- Mode: Java; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 2 -*-
+/** -*- Mode: Java; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 2 -*-
 # ***** BEGIN LICENSE BLOCK *****
 # Version: MPL 1.1/GPL 2.0/LGPL 2.1
 #
@@ -34,19 +34,9 @@
 # the terms of any one of the MPL, the GPL or the LGPL.
 #
 # ***** END LICENSE BLOCK *****
-
+**/
 // XXX Toolkit-specific preferences should be moved into toolkit.js
 
-#filter substitution
-
-# SYNTAX HINTS:  dashes are delimiters.  Use underscores instead.
-#  The first character after a period must be alphabetic.
-
-#ifdef XP_UNIX
-#ifndef XP_MACOSX
-#define UNIX_BUT_NOT_MAC
-#endif
-#endif
 
 pref("general.startup.browser", true);
 
