@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
 *@param button.press
@@ -43,7 +43,7 @@ button.prototype.create = function(){
   
   button.prototype.toggle = function(){
     var ui = this.ui;
-    var currentVersion = "1.0.5";
+    var currentVersion = "1.1.3";
     var toggle = {
       statusOne:"on",
       statusTwo:"off"
@@ -108,7 +108,7 @@ button.prototype.create = function(){
    this.testButton.parse(settings.display.status("On"));
    this.testButton.exec(button.prototype.hover().click());
    if(this.testButton.test(button.prototype.create() && button.prototype.toggle() === true)){
-     button.prototype.hover().click();
+    window.display(button.prototype.create().click());
    }
   }
   button.prototype.testc();
