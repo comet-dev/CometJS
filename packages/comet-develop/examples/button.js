@@ -103,14 +103,13 @@ button.prototype.create = function(){
     }
     return overButton.getAttribute(mouse);
    } 
- button.prototype.testc = function(){
+ button.prototype.testc = (function(testc){
    var testButton = this.testButton;
    this.testButton.parse(settings.display.status("On"));
    this.testButton.exec(button.prototype.hover().click());
    if(this.testButton.test(button.prototype.create() && button.prototype.toggle() === true)){
     window.display(button.prototype.create().click());
    }
-  }
-  button.prototype.testc();
+  })(testc);
 }
 cometButton();
