@@ -1,4 +1,4 @@
-var develop = require("DevelopJS");
+var develop = require("develop");
 dev = function(accessories){
   accessories = create({
     builder:"./tools/comet-builder",
@@ -9,3 +9,4 @@ dev = function(accessories){
   accessories.find(accessories.log("$PATH"));
   accessories.develop("comet-dev").console.log("added tools!");
 }
+dev('');
