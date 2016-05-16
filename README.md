@@ -18,6 +18,12 @@ Linux/Mac/Windows |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?
   Developments | [![bitHound Dev Dependencies](https://www.bithound.io/github/comet-dev/CometJS/badges/devDependencies.svg)](https://www.bithound.io/github/comet-dev/CometJS/master/dependencies/npm)
   Dependencies | [![bitHound Dependencies](https://www.bithound.io/github/comet-dev/CometJS/badges/dependencies.svg)](https://www.bithound.io/github/comet-dev/CometJS/master/dependencies/npm)
   Code | [![bitHound Code](https://www.bithound.io/github/comet-dev/CometJS/badges/code.svg)](https://www.bithound.io/github/comet-dev/CometJS)
+  
+ Versions | Badges
+----------|---------
+NPM | [![npm version](https://badge.fury.io/js/CometJS.svg)](https://badge.fury.io/js/CometJS)
+Latest | [![GitHub version](https://badge.fury.io/gh/comet-dev%2FCometJS.svg)](https://badge.fury.io/gh/comet-dev%2FCometJS)
+
 ## Get Started
 
 CometJS is simple software development for building desktop applications.
