@@ -74,15 +74,15 @@ button.prototype.create = function(){
     this.ui.prototype.URL.open(useElements.js, useElements.html);
     
     if(buttonUI === false || useElements === "Files Unknown" && useElements.getElementById("frameworks") === false){
-    throw "Cannot interpret files"
-    catch(error){
-      settings.find("frameworks");
-    }
     try {
       ui.test();
       if(ui === false){
         ui.alert("Must get new download: " + version);
+        throw "Cannot interpret files";
       }
+     } 
+    catch(error){
+      settings.find("frameworks");
     }
   }
   
@@ -94,7 +94,8 @@ button.prototype.create = function(){
     };
     mouse.backgroundColor.display = overButton.test(mouse.status("true"));
     if(mouse === overButton.state){
-      ui.test(overButton.state.push(mouse.backgroundColor)) && overButton.state = true;
+      ui.test(overButton.state.push(mouse.backgroundColor));  
+      overButton.state = true;
       ui.innerHTML.test(mouse);
       console.log(mouse.status(overButton));
       if(mouse.status(overButton) === true){
