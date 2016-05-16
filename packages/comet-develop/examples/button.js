@@ -6,7 +6,7 @@
 *@author @mosesag0813 (github)
 */
 
-cometButton = function(){
+cometButton = function($){
 button.prototype.create = function(){
   var settings = {
     buttonClass:"button",
@@ -42,15 +42,16 @@ button.prototype.create = function(){
   // button toggle on/off
   
   button.prototype.toggle = function(){
-    var ui = this.ui;
+    var $ui = this.$ui;
+    this.$ui = $(ui)
     var currentVersion = "1.1.3";
     var toggle = {
       statusOne:"on",
       statusTwo:"off"
     };
-    this.ui.display = window.open(ui.toggle.status("On"));
-    this.ui.test("comet.min.js") && this.ui.test("comet.min.css");
-    this.ui.hasFeature("buttonOn") && this.ui.getElementsByClassName("button");
+    this.$ui.display = window.open(this.$ui.toggle.status("On"));
+    this.$ui.test("comet.min.js") && this.$ui.test("comet.min.css");
+    this.$ui.hasFeature("buttonOn") && this.$ui.getElementsByClassName("button");
     
    return toggle.status("on") && toggle.statusOne === true || toggle.statusTwo === false;
   }
@@ -68,10 +69,10 @@ button.prototype.create = function(){
     
     useElements.test(this.ui);
     var buttonUI = this.ui.createElement("button");
-    this.ui.test.StatusOne(useElements.html); 
+    this.$ui.test.StatusOne(useElements.html); 
     button.prototype.create(useElements.getElementById("css"));
-    button.prototype.toggle(ui.test(settings));
-    this.ui.prototype.URL.open(useElements.js, useElements.html);
+    button.prototype.toggle(this.$ui.test(settings));
+    this.$ui.prototype.URL.open(useElements.js, useElements.html);
     
     if(buttonUI === false || useElements === "Files Unknown" && useElements.getElementById("frameworks") === false){
     try {
