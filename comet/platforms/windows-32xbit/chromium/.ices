@@ -1,1 +1,9 @@
+@!/usr/cfg/bin ices
+# An ices dotfile compiles packages within a directory (repository) and sends them into a distributable package.
+# This ices file is an executable.
 
+@packages.init -
+.chromium
+
+@packages.comet-develop
+ ./chromium
