@@ -21,7 +21,7 @@ Linux/Mac/Windows |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?
   
  Versions | Badges
 ----------|---------
-NPM | [![npm version](https://badge.fury.io/js/CometJS.svg)](https://badge.fury.io/js/CometJS)
+NPM | (in progress)
 Latest | [![GitHub version](https://badge.fury.io/gh/comet-dev%2FCometJS.svg)](https://badge.fury.io/gh/comet-dev%2FCometJS)
 
 ## Get Started
