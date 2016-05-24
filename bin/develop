@@ -1,18 +1,19 @@
 #!/usr/bin/env node
-var developJS = require("DevelopJS")
+var developJS = require("DevelopJS");
 var pkg = create({
   comet:"Comet Package",
   development:"Comet Development"
 });
 var depedencies = require("dependencies");
+
 develop = function(file){
   if(file.find("develop.js") === true){
     developJS(file.exec("$PATH").open(pkg.comet));
-    file.push(pkg.comet);
+    file.push(pkg.comet) && file.join(process.argv);
   }
   for(var i=0;i<pkg.development;i++){
     pkg.comet.push(developJS(file));
     dependencies(developJS(file));
-    depedencies.send("DevelopJS", pkg.comet);
+    depedencies.send("DevelopJS", pkg.development);
   }
 }
