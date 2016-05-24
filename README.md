@@ -28,7 +28,8 @@ Prerelease | [![GitHub version](https://badge.fury.io/gh/comet-dev%2FCometJS.svg
 
 CometJS is simple software development for building desktop applications.
 
-CometJS specializes in creating applications, but can also host them in a browser window. This practically sets it apart from the other popular frameworks, however, the app must be tested on the "web". Comet sends your app to a server (through desktop), but the common server is 1.100.COMET. From there, your app is public to share with the world from the "web" (on desktop, web window).
+CometJS specializes in creating applications, but can also host them in a browser window. This practically sets it apart from the other popular frameworks, however, the app must be tested on the "web". Comet sends your app to a server (through desktop), but the common server is 1.100.COMET. From there, your app is public to share with the world from the "web" (on desktop, web window) as if
+it were a platform made on ice!
 
 To test if your app is valid, use: ```comet test <app>```
 > Note: CometJS is still in development!
