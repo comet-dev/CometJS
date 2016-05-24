@@ -9,12 +9,13 @@ var publish = require("Publish")
 deploy = function(app){
   var deployMethods = create({
     cometPlatform:"Run apps in Comet Cloud",
-    web: "Send to web, for everyone to see! :-)",
-    windows:"Send to windows store"
+    web: "Send to web, for everyone to see!",
+    desktop:"Send to windows store"
   });
-  app.prototype.menu = window.open("Comet Apps");
-  app.prototype.button = comet.button.setTo("desktop-App");
-  // Initalize as Comet app (other mumbo jumbo ;-))
+  app.prototype.menu = window.open("Comet Apps").desktop();
+  app.prototype.button = comet.button.go("desktop-app");
+  
+  // Initalize as Comet app (other mumbo jumbo for the backend ;-) )
   if(usr.confirm(app.send(deployMethods.cometPlatform))){
     app.require(usr.process.argv(app.describe("Comet Application")).comet(app++; app.call("Scan")));
     for(usr.require(app.ini(comet.appName("").find("./.comet"))&&app.push("New Server").send("1.100.COMET").ini("New Server 1.100"))){
@@ -22,8 +23,8 @@ deploy = function(app){
     } else if(deployMethods.web === true&&!deployMethods.cometPlatform&&deployMethods.windows){
       app.require("./.comet").process.argv("$send")+require("New Comet Packages");
       usr.prompt("App Has Been Deployed!")
-    } else if(app.send(deployMethods.windows)&&app.usr.find("account").register()){
-      usr.account.comet("").app("")&&app.register("Windows Store");
+    } else if(app.send(deployMethods.windows) && app.usr.find("account").register()){
+      usr.account.comet("").app("")&&app.register("Desktop");
     }
   }
 }
@@ -33,7 +34,7 @@ onInstall = function(e){
   e.ini(usr.create("New Account")&&register("Account") === false);
   deploy("").server("1.100.COMET")register().send(deployMethods.cometPlatform)||register().send(deployMethods.web)||register().send(deployMethods.windows);
   "MSI Installer" = true;
-  e.configure(server.ini(e)&&process.argv("Installation" + "/n" e && process.argv("Settings")));
+  e.configure(server.ini(e)&&process.argv("Installation" + "/n" e && process.argv("Settings").exec()));
 }
 
 onOpen = function(e){
@@ -41,4 +42,4 @@ onOpen = function(e){
   window.open(deploy(""));
  }
 }
-onOpen("");
+onOpen("e");
