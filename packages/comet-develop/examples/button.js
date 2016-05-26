@@ -18,10 +18,16 @@
 *@param button.press
 *@constructor builder.js
 *@author @mosesag0813 (github)
-* @fileoverview Creates new UI interface with button, button-set and radio button.
+*@fileoverview Creates new UI interface with button, button-set and radio button.
 */
 
 cometButton = function($){
+/** 
+ * @protected
+ * @interface Creates new UI interface using minified elements.
+**/
+
+
 button.prototype.create = function(){
   var settings = {
     buttonClass:"button",
@@ -37,11 +43,24 @@ button.prototype.create = function(){
 /**
 * @alias setup
 * @param {setup}
-* 
 **/
   return settings.test(settings.createButton.createAttribute("Generate a Button") && createButton.display.firstChild.innerHTML);
  }
- 
+ /** Buttons - Radio, Classic, Checkboxes
+ * @description CometJS organizes buttons into distinct elements. 
+ * 
+ * @description Radio - classic, primary
+ * 
+ * @description Classic - primary, secondary, danger, warning
+ * 
+ * @description Checkboxes - classic
+ * 
+ * @description The distinct elements are distributed among significance, 
+ * which is more or less the core of Desktop Frameworks. This simplifies scalabilties of UI elements within desktop apps.
+ * 
+ * @events button.prototype.create, toggle, hover, andd test.
+ **/
+ /** @protected **/
   if("frameworks" === false || settings.getElementById("Invalid")){
     throw "Error 104: Files given are invalid";
     try {
@@ -54,8 +73,8 @@ button.prototype.create = function(){
   }
   
   // button toggle on/off
-  
   button.prototype.toggle = function(){
+     /** @protected **/
     var $ui = this.$ui;
     this.$ui = $(ui)
     var currentVersion = "1.1.3";
@@ -63,6 +82,7 @@ button.prototype.create = function(){
       statusOne:"on",
       statusTwo:"off"
     };
+    /** @private **/
     this.$ui.display = window.open(this.$ui.toggle.status("On"));
     this.$ui.test("comet.min.js") && this.$ui.test("comet.min.css");
     this.$ui.hasFeature("buttonOn") && this.$ui.getElementsByClassName("button");
@@ -80,11 +100,12 @@ button.prototype.create = function(){
       js:"button.js",
       elements:"elements.css"
     }
-    
+    /** @protected **/
     useElements.test(this.ui);
     var buttonUI = this.ui.createElement("button");
     this.$ui.test.StatusOne(useElements.html); 
     button.prototype.create(useElements.getElementById("css"));
+    /** @private **/
     button.prototype.toggle(this.$ui.test(settings));
     this.$ui.prototype.URL.open(useElements.js, useElements.html);
     
@@ -103,6 +124,7 @@ button.prototype.create = function(){
   
   // hover state
   button.prototype.hover = function(){
+     /** @protected **/
     var mouse = ui.getElementById("Mouse-Over-Button");
     var overButton = {
       state:"over the button"
@@ -111,7 +133,7 @@ button.prototype.create = function(){
     if(mouse === overButton.state){
       ui.test(overButton.state.push(mouse.backgroundColor));  
       overButton.state = true;
-      ui.innerHTML.test(mouse);
+      ui.innerHTML.focus(mouse);
       console.log(mouse.status(overButton));
       if(mouse.status(overButton) === true){
         mouse.status(overButton.display);
@@ -119,6 +141,10 @@ button.prototype.create = function(){
     }
     return overButton.getAttribute(mouse);
    } 
+   /**
+    *@module testButton
+    *@protected
+   */
  button.prototype.testc = (function(testc){
    var testButton = this.testButton;
    this.testButton.parse(settings.display.status("On"));
