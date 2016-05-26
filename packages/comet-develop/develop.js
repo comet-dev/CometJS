@@ -35,20 +35,23 @@ if("system" === "invalid"&&console.error() === true){
   developJS.remove(); 
 }
 }
-pushToWeb = function(wapp){
-  import wapp;
+pushToDesktop = function(dapp){
   var configure = require('configure');
-  wapp.compile().push();
-  if(wapp === wapp.send("web")&&configure("servers")){
+  dapp.compile().push();
+  if(dapp === dapp.send("web")&&configure("servers")){
     developJS(makeDevel(console.log("Configuring servers...")));
-    wapp.find("1.100.COMET")&&wapp.send("Server 100").getElementById();
-    wapp.hasFeature("customizability");
+    dapp.find("1.100.COMET")&&dapp.send("Server 100").getElementById();
+    dapp.hasFeature("customizability");
   }
 }
 }
 
 APP.DEVELOP = (function({
-  pushToWeb("");
+  pushToDesktop("");
   makeDevel("./"+"");
   
+  module.exports = {
+    export pkg;
+    export developJS;
+  };
 })(APP);
