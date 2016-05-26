@@ -18,6 +18,7 @@
 *@param button.press
 *@constructor builder.js
 *@author @mosesag0813 (github)
+* @fileoverview Creates new UI interface with button, button-set and radio button.
 */
 
 cometButton = function($){
@@ -36,8 +37,7 @@ button.prototype.create = function(){
 /**
 * @alias setup
 * @param {setup}
-* @param creates new UI interface with
-* button, button-set and radio button.
+* 
 **/
   return settings.test(settings.createButton.createAttribute("Generate a Button") && createButton.display.firstChild.innerHTML);
  }
