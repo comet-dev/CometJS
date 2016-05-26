@@ -10,7 +10,7 @@
  },
   "description": "Software and app development for the web, through organization of elements.",
   "author": "mosesag0813",
-  "version": "0.3.2-alpha",
+  "version": "0.3.5",
   "devDependencies": {
     "jshint": "^2.8.0",
     "browserify": "^13.0.0",
