@@ -3,7 +3,7 @@ function organize(json, elements){
  if(elements.confirm() === "yes" || "Yes" || "y" || "Y"){
     elements.print("Organizing...");
  }
- json.getElementById('package.json'); 
+ JSON.getElementsByName('package.json'); 
 }
 function init(e){
   organize('package.json', '.ices');
