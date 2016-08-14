@@ -37,9 +37,9 @@ To test if your app is valid, use: ```comet test <app>```
 CometJS is simply front-end desktop development, user interaction in all (Comet's UI), and precise back-end desktop development, with plugins and apis working coherently in pure javascript in order to keep the easy workflow. With the back-end desktop development, CometJS is running on Chromium, with some Firefox implementations. Running on Firefox source code makes it unique, so that there is two ways running an app meets the eye.
 
 And the best parts of all are:
-- You can run apps in **Javascript**
+- You can run apps in **Javascript**.
 - You can deploy them on a running Javascript client-side foundation.
-- All the binaries you need in one place(account for most of what keeps CometJS functional).
+- All the binaries you need in one place.
 
 ## Downloads
 On the contrary, [npm install](https://www.npmjs.com/package/CometJS) CometJS and get started. In addition, when you install CometJS, be sure you also install it's [cli](https://github.com/comet-dev/cli) as well. 
