@@ -19,7 +19,15 @@ var app = require('app');
  **/
  /** @protected **/
 app.window.URL('1.100.COMET');
-app.access.getElements('app.private.command', 'app.public.command', 'app.protected.command');
+/**
+ * @description Break the app down into access privileges 
+ * and creating the elements to private, public, and protected.
+ **/ 
+app.access.createElement('app.private.command', 'app.public.command', 'app.protected.command');
+/**
+ * @description 
+ * 
+ **/ 
 app.access.command('app.access.private','app.access.public', 'app.access.protected');
 app.access.getUser('').save();
 app.window.open(app);
