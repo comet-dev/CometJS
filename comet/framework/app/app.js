@@ -1,5 +1,5 @@
 "use strict";
-// Copyright 2015 CometJS©. All Rights Reserved.
+// Copyright 2015 CometJS. All Rights Reserved.
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at 
@@ -29,7 +29,7 @@ app.on("build");
  * @overview Loading significant files to app/project.
  * @todo 
  * - Window Sizing
- * - Constant Bugging 
+ * - Constant Bugging - app.load modules 
  * - App Compatibility
  **/
 app.use(window.open(app));
