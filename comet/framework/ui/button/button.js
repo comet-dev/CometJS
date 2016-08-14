@@ -18,7 +18,7 @@
 *@fileoverview Creates new UI interface with button, button-set and radio button.
 */
 
-cometButton = function($){
+cometButton = (function($){
 /** 
  * @protected
  * @interface Creates new UI interface using minified elements.
@@ -55,7 +55,7 @@ button.prototype.create = function(){
  * @description The distinct elements are distributed among significance, 
  * which is more or less the core of Desktop Frameworks. This simplifies scalabilties of UI elements within desktop apps.
  * 
- * @events button.prototype.create, toggle, hover, andd test.
+ * @event button.prototype.create, toggle, hover, andd test.
  **/
  /** @protected **/
   if("frameworks" === false || settings.getElementById("Invalid")){
@@ -81,7 +81,9 @@ button.prototype.create = function(){
     };
     /** @private **/
     this.$ui.display = window.open(this.$ui.toggle.status("On"));
+    
     this.$ui.test("comet.min.js") && this.$ui.test("comet.min.css");
+    
     this.$ui.hasFeature("buttonOn") && this.$ui.getElementsByClassName("button");
     
    return toggle.status("on") && toggle.statusOne === true || toggle.statusTwo === false;
@@ -126,12 +128,16 @@ button.prototype.create = function(){
     var overButton = {
       state:"over the button"
     };
-    mouse.backgroundColor.display = overButton.test(mouse.status("true"));
+    mouse.backgroundColor.display = overButton.test(mouse.status('updated'));
+    
     if(mouse === overButton.state){
       ui.test(overButton.state.push(mouse.backgroundColor));  
       overButton.state = true;
+      
       ui.innerHTML.focus(mouse);
+      
       console.log(mouse.status(overButton));
+      
       if(mouse.status(overButton) === true){
         mouse.status(overButton.display);
       }
@@ -150,5 +156,5 @@ button.prototype.create = function(){
     window.display(button.prototype.create().click());
    }
   })(testc);
-}
-cometButton();
+})($);
+
