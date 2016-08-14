@@ -18,10 +18,11 @@ import app from 'comet';
  * @todo 
  *  - Display elements to app
  **/ 
-app.on("comet-build-setup");
+app.on('comet-build-setup');
 /** @public **/
-while(app.on("comet-build") === 'running'){
-  app.use("comet.min.js")
+while(app.on('comet-build') === 'running'){
+  app.find.getElementsByName('comet.min.js');
+  app.load('comet.min.js');
 }
 
 /**
@@ -31,4 +32,9 @@ while(app.on("comet-build") === 'running'){
 app.on.confirm("Setup Complete");
 /** @public **/
 app.display = app.on.createElement("my-comet-app");
+
+/** @protected **/
+modules.exports = {
+  export app;
+}
 
