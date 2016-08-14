@@ -40,7 +40,6 @@ And the best parts of all are:
 - You can run apps in **Javascript**
 - You can deploy them on a running Javascript client-side foundation.
 - All the binaries you need in one place(account for most of what keeps CometJS functional).
-- A mini-cloud, server and nothing more secure, since it is on the desktop.
 
 ## Downloads
 On the contrary, [npm install](https://www.npmjs.com/package/CometJS) CometJS and get started. In addition, when you install CometJS, be sure you also install it's [cli](https://github.com/comet-dev/cli) as well. 
@@ -64,7 +63,6 @@ comet serve my-app.comet.com
 - Download Source Code
 
 ## Examples and Quickstart
-Demo Web UI - [http://mosesag0813.github.io/Comet-Example](http://mosesag0813.github.io/Comet-Example) 
 
 Run the See a Comet app in action with ```comet-dev/comet-app-start```
 
