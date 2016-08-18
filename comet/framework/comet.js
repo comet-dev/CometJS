@@ -30,5 +30,5 @@ startUp = (function($)({
     this.$openWindow.go(this.$loadWindow);
     comet.gecko.load('firefox-chromium')
   }
-  
+  comet.display = this.$loadWindow.gecko.parent;
 })($);
