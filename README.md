@@ -24,7 +24,7 @@ Linux/Mac/Windows |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?
 NPM | (in progress)
 Prerelease | [![GitHub version](https://badge.fury.io/gh/comet-dev%2FCometJS.svg)](https://badge.fury.io/gh/comet-dev%2FCometJS)
 
-## Get Started
+## Overview
 
 CometJS is simple software development for building desktop applications.
 
@@ -34,7 +34,7 @@ it were a platform made on ice!
 To test if your app is valid, use: ```comet test <app>```
 > Note: CometJS is still in development!
 
-CometJS is simply front-end desktop development, user interaction in all (Comet's UI), and precise back-end desktop development, with plugins and apis working coherently in pure javascript in order to keep the easy workflow. With the back-end desktop development, CometJS is running on Chromium, with some Firefox implementations. Running on Firefox source code makes it unique, so that there is two ways running an app meets the eye.
+CometJS is simply front-end desktop development, user interaction in all (Comet's UI), and precise back-end desktop development, with plugins and apis working coherently in pure javascript in order to keep the easy workflow. With the back-end desktop development, CometJS is running on Chromium, with some Firefox implementations. Running on Firefox makes it unique, so that there is two ways running an app meets the eye.
 
 And the best parts of all are:
 - You can run apps in **Javascript**.
@@ -42,7 +42,7 @@ And the best parts of all are:
 - All the binaries you need in one place.
 
 ## Downloads
-On the contrary, [npm install](https://www.npmjs.com/package/CometJS) CometJS and get started. In addition, when you install CometJS, be sure you also install it's [cli](https://github.com/comet-dev/cli) as well. 
+[Npm install](https://www.npmjs.com/package/CometJS) CometJS and get started. In addition, when you install CometJS, be sure you also install it's [cli](https://github.com/comet-dev/cli) as well. 
 ```sh
 # npm install Comet locally or globally to your PATH
 npm install comet
