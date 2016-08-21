@@ -42,7 +42,7 @@ And the best parts of all are:
 - All the binaries you need in one place.
 
 ## Downloads
-[Npm install](https://www.npmjs.com/package/CometJS) CometJS and get started. In addition, when you install CometJS, be sure you also install it's [cli](https://github.com/comet-dev/cli) as well. 
+[Npm install](https://www.npmjs.com/package/CometJS) CometJS and get started, but be sure you also install it's [cli](https://github.com/comet-dev/cli) as well. 
 ```sh
 # npm install Comet locally or globally to your PATH
 npm install comet
