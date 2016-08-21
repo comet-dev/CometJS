@@ -1,5 +1,5 @@
 update = function(uptodate){
-  updateNew = "1.0.0" + "0.0.1";
+  updateNew = "0.4.5" + "0.0.1";
   updatetodate.push(updateNew);
 }
 update('CometJS')
