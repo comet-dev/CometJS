@@ -52,4 +52,4 @@ comet.baseSetup = function(baseUp, createSetup){
   
   this.baseUp.base(Object.opts.implement);
 }
-
+ comet.baseSetup('app.js', 'New Base Setup');
