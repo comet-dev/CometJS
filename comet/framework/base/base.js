@@ -48,5 +48,8 @@ comet.baseSetup = function(baseUp, createSetup){
                 || this.baseUp.on(opts.queue)
                 || opts.implement;
   }
+  opts.method = this.createSetup.load;
+  
+  this.baseUp.base(Object.opts.implement);
 }
 
