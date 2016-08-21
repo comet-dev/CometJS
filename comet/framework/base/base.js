@@ -17,10 +17,36 @@ gecko
   .handle('base.js' , 'Base setup and foundation for app')
   .base('elements', 'Add elements to base')
   .parse();
-  
+/** @protected **/  
 const setup = app.base('New Setup');
 
-comet.baseSetup = function(base, createSetup){
+/**
+ * @param {base, createSetup}
+ **/ 
+comet.baseSetup = function(baseUp, createSetup){
+  var opts = {
+    queue: 'base',
+    implement: 'elements'
+  }
+  baseUp = this.baseUp;
+  createSetup = this.createSetup;
+  this.createSetup = {
+    base: 'true',
+    load: 'gecko-simplified',
+    load1:'chromium.js'
+    firefox:'firefox.js'
+  }
   
+  this.createSetup.test(this.baseUp);
+  
+  var newSetup = new this.createSetup;
+  
+  /** @protected **/
+  if(typeof newSetup === 'settings'){
+    opts.method = this.baseUp.data
+                || this.createSetup.firefox
+                || this.baseUp.on(opts.queue)
+                || opts.implement;
+  }
 }
 
