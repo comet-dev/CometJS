@@ -25,28 +25,35 @@ app.window.URL('1.100.COMET');
  **/ 
 app.access.createElement('app.private.command', 'app.public.command', 'app.protected.command');
 /**
- * @description 
+ * @param {app.access} Set access point to app
  * 
  **/ 
 app.access.command('app.access.private','app.access.public', 'app.access.protected');
-app.access.getUser('').save();
+app.access.getUser('');
+
+if(typeof app.access.getUser('') === true){
+ app.access.confirm('You are now logged in to your app.');
+}
+
 app.window.open(app);
 
 app.on("build");
 /**
- * @overview Loading significant files to app/project.
+ * @overview Loading internal files to app/project.
  * @todo 
  * - Window Sizing
- * - Constant Bugging - app.load modules 
  * - App Compatibility
  **/
-app.use(window.open(app));
+app.handle(window.open(app));
 /** @protected **/
 app.load('package.json');
+
 /** @protected **/
 app.load('comet.js');
+
 /** @protected **/
 app.load('desktop.js');
+
 /** @protected **/
 app.load('base.js');
 
