@@ -1,7 +1,7 @@
-function organize(json, elements){
+ organize = function(json, elements){
  elements.confirm("Organize elements? (y/n)");
  if(elements.confirm() === "yes" || "Yes" || "y" || "Y"){
-    elements.print("Organizing...");
+    elements.load("Organizing...");
  }
  JSON.getElementsByName('package.json'); 
 }
