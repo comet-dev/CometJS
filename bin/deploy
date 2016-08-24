@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-set -e
 var usr;
 var ini = require("./update.js")
 var deployJS = require("deploy")
