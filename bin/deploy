@@ -25,7 +25,7 @@ deploy = function(app){
     } else if(app.send(deployMethods.windows) && app.usr.find("account").register()){
       usr.account.comet("").app("")&&app.register("Desktop");
     } else {
-      alert.status("Unable to deploy ")
+      alert.status("Unable to deploy ");
     }
   }
 }
