@@ -4,6 +4,6 @@ function cometPlatform(){
   comet.create({
     platform:"optional platform enviroment"
   });
-  comet.push("New Platform")+process.argv("New Env");
+  comet.add("New Platform").parse(process.argv)
   comet.platform.compile("Comet32", "Comet64");
 }
