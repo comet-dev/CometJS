@@ -12,13 +12,6 @@ Linux/Mac/Windows |[![Build Status](https://travis-ci.org/comet-dev/CometJS.svg?
  Developments |[![devDependency Status](https://david-dm.org/comet-dev/CometJS/dev-status.svg)](https://david-dm.org/comet-dev/CometJS#info=devDependencies)
   Dependencies|[![Dependency Status](https://david-dm.org/comet-dev/CometJS.svg)](https://david-dm.org/comet-dev/CometJS)
   
-  Hound Builds | Badges
-  ------------ |----------  
-  Overall | [![bitHound Overall Score](https://www.bithound.io/github/comet-dev/CometJS/badges/score.svg)](https://www.bithound.io/github/comet-dev/CometJS)
-  Developments | [![bitHound Dev Dependencies](https://www.bithound.io/github/comet-dev/CometJS/badges/devDependencies.svg)](https://www.bithound.io/github/comet-dev/CometJS/master/dependencies/npm)
-  Dependencies | [![bitHound Dependencies](https://www.bithound.io/github/comet-dev/CometJS/badges/dependencies.svg)](https://www.bithound.io/github/comet-dev/CometJS/master/dependencies/npm)
-  Code | [![bitHound Code](https://www.bithound.io/github/comet-dev/CometJS/badges/code.svg)](https://www.bithound.io/github/comet-dev/CometJS)
-  
  Versions | Badges
 ----------|---------
 NPM | (in progress)
