@@ -59,4 +59,4 @@ comet serve my-app.comet.com
 
 Run the See a Comet app in action with ```comet-dev/comet-app-start```
 
-Run the sdk to customize your app (experimental): ```comet-dev/comet-app-sdk`
+Run the sdk to customize your app (experimental): ```comet-dev/comet-app-sdk```
