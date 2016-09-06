@@ -21,11 +21,9 @@ Prerelease | [![GitHub version](https://badge.fury.io/gh/comet-dev%2FCometJS.svg
 
 CometJS is simple software development for building desktop applications.
 
-CometJS specializes in creating applications, but can also host them in a browser window. This practically sets it apart from the other popular frameworks, however, the app must be tested on the "web". Comet sends your app to a server (through desktop), but the common server is 1.100.COMET. From there, your app is public to share with the world from the "web" (on desktop, web window) as if
-it were a platform made on ice!
+It can specialize in creating applications, as well as previewing them in a browser window. This practically sets it apart from the other popular JS frameworks. Comet sends your app to a server (through the desktop) in a intuitive window, on Windows, Mac, or Linux. From there, your app is public to share with the world from the desktop as if it were a platform made on ice!
 
 To test if your app is valid, use: ```comet test <app>```
-> Note: CometJS is still in development!
 
 CometJS is simply front-end desktop development, user interaction in all (Comet's UI), and precise back-end desktop development, with plugins and apis working coherently in pure javascript in order to keep the easy workflow. With the back-end desktop development, CometJS is running on Chromium, with some Firefox implementations. Running on Firefox makes it unique, so that there is two ways running an app meets the eye.
 
@@ -55,9 +53,10 @@ comet serve my-app.comet.com
 - Check out the [CONTRIBUTING.md](https://github.com/comet-dev/CometJS/blob/master/CONTRIBUTING.md) for more information on contributing to this project.
 - Download Source Code
 
+> Note: CometJS is still in development, and more hands are better than some!
+
 ## Examples and Quickstart
 
 Run the See a Comet app in action with ```comet-dev/comet-app-start```
 
-Run the sdk to customize your app (experimental): ```comet-dev/comet-app-sdk```
-
+Run the sdk to customize your app (experimental): ```comet-dev/comet-app-sdk`
