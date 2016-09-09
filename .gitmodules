@@ -1,0 +1,3 @@
+[submodule "ices"]
+	path = ices
+	url = https://github.com/comet-dev/ices
