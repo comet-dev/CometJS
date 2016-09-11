@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 
 var usr;
-var ini = require("./update.js")
-var deployJS = require("deploy")
-var comet = require(".comet")
-var publish = require("Publish")
+var ini = require(".../update.js");
+var deployJS = require("deploy");
+var comet = require(".../comet");
+var publish = require("Publish");
+
 deploy = function(app){
   var deployMethods = create({
     cometPlatform:"Run apps in Comet Cloud",
@@ -14,12 +15,15 @@ deploy = function(app){
   app.prototype.menu = window.open("Comet Apps").onDesktop();
   app.prototype.frameworks = comet.frameworks.go("desktop-app");
   
-  // Initalize as Comet app (other mumbo jumbo for the backend ;-) )
+  /**
+   * @param {app}, {usr}
+   * @description Process for app and user deployment.
+   **/ 
   if(usr.confirm(app.send(deployMethods.cometPlatform))){
     app.require(usr.process.argv(app.describe("Comet Application")).comet(app++; app.call("Scan")));
     for(usr.require(app.ini(comet.appName("").find("./.comet"))&&app.push("New Server").send("1.100.COMET").ini("New Server 1.100"))){
-      app.create("Comet Packages").ini(usr.prompt("Add comet package?")&& !require("New Server to Store").publish("New App"));
-    } else if(deployMethods.web === true&&!deployMethods.cometPlatform&&deployMethods.desktop){
+      app.create("Comet Packages").ini(usr.prompt("Add Comet package?")&& !require("New Server to Store").publish("New App"));
+    } else if(deployMethods.web === true && deployMethods.cometPlatform&&deployMethods.desktop){
       app.require("./.comet").process.argv("$send")+require("New Comet Packages");
       usr.prompt("App Has Been Deployed!")
     } else if(app.send(deployMethods.windows) && app.usr.find("account").register()){
@@ -34,12 +38,10 @@ deploy = function(app){
  **/
 onInstall = function(e){
   var server = require("ssl");
-  e.ini(usr.create("New Account")&&register("Account") === false);
-  deploy("").server("1.100.COMET") && register().send(deployMethods.cometPlatform)|| 
-  register().send(deployMethods.web) ||
-  register().send(deployMethods.windows);
-  "MSI Installer" = true;
-  e.configure(server.ini(e)&&process.argv("Installation" + "/n" e && process.argv("Settings").exec()));
+  e.ini(usr.create("New Account") && register("Account"));
+  deploy("").server("1.100.COMET") && register().send(deployMethods.cometPlatform);
+  register().send(deployMethods.web) || register().send(deployMethods.windows);
+  e.configure(server.ini(e)&&process.argv("Installation" + "/n" e && process.argv("Settings").exec(comet.e));
 }
 
 onOpen = function(e){
