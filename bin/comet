@@ -11,14 +11,14 @@
    this.$elements = $(elements).display;
    this.elements.parent("framework");
    
-   comet.prototype.configure = function(){
+   comet.prototype.configure = (function(){
      $comet.test("modules.js", "build.js");
      if(!this.$element && this.$comet.test("develop.js")){
        $elements.alert("Error: Can't test components, no DevelopJS devDependencies.");
        console.error("STOP: COMPONENTS NOT FOUND; CAN'T BE TESTED");
        $elements.options = $elements.on()
                            ||.off();
-     }
+     })(comet);
      while(this.comet.test("./build.bat", "./build.js") === "running"){
      var state = ["on", "off"];
      this.element.exec(state[0] && $element = true);
@@ -34,6 +34,7 @@
      })(getCometElements);
    }
  }
-
+}
+use($);
 
 
