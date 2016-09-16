@@ -9,8 +9,9 @@
 // distributed under the License is distributed on an "AS IS" BASIS,
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and limitations under the License.
-import comet from 'comet'
-import gecko from 'gecko-dev'
+import comet from 'comet';
+import gecko from 'gecko-dev';
+import handle from 'gecko';
 /**
  * 
  *@overview Finalize app and base for execution.
@@ -31,4 +32,6 @@ startUp = (function($)({
     comet.gecko.load('firefox-chromium')
   }
   comet.display = this.$loadWindow.gecko.parent;
+  
+  gecko.handle('all parent elements', gecko.getElementById('parent'));
 })($);
