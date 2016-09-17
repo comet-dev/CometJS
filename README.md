@@ -25,7 +25,7 @@ It can specialize in creating applications, as well as previewing them in a brow
 
 To test if your app is valid, use: ```comet test <app>```
 
-CometJS is simply front-end desktop development, user interaction in all (Comet's UI), and precise back-end desktop development, with plugins and apis working coherently in pure javascript in order to keep the easy workflow. With the back-end desktop development, CometJS is running on Chromium, with stable-integrated Firefox implementations. Running on Gecko makes it unique, creating a beautiful layout, as well as a good build
+CometJS is simply front-end desktop development, user interaction in all (Comet's UI), and precise back-end desktop development, with plugins and apis working coherently in pure javascript in order to keep the easy workflow. With the back-end desktop development, CometJS is running on Chromium, with stable-integrated Firefox implementations. Running on Gecko makes it unique, creating a beautiful layout, as well as a good build system.
 
 And the best parts of all are:
 - You can run apps in **Javascript**.
