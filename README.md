@@ -36,10 +36,11 @@ And the best parts of all are:
 [Npm install](https://www.npmjs.com/package/CometJS) CometJS and get started, but be sure you also install it's [cli](https://github.com/comet-dev/cli) as well. 
 ```sh
 # npm install Comet locally or globally to your PATH
-npm install comet
+npm install comet-dev
 
-# install the cli
+# install the cli and ices
 npm install comet-cli
+npm install ices
 ```
 ```sh
 # Example for creating an app
