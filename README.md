@@ -4,7 +4,7 @@
 </a>
 </p>
 
-# Comet
+# CometJS
 
  Builds | Badges
 ---------- | ----------
