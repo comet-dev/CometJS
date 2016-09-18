@@ -20,8 +20,7 @@ var gecko = require('./firefox/gecko-dev');
 geckoDev.prototype.packages = (function(){
   var install = this.install;
   packages('start', function(req, com){
-    gecko.start = ices.options
-               || ices.components.push('.../tools/init_tool'); 
+    gecko.start = ices.components.push('.../tools/init_tool')
                || ices.call(gecko.handle('.../tools/builder'));
   });
   // Type of requirements pushes Gecko's components to package
@@ -39,11 +38,11 @@ geckoDev.prototype.packages = (function(){
 geckoDev.prototype.build = (function(){
   var buildPkg = this.buildPkg;
   
-  if(typeof this.buildPkg === this.buildPkg.test(packages('build-package'))){
-    packages.append(this.buildPkg);
+  packages.append(this.buildPkg);
   }
 });
-/** @interface 
+/** 
+ * @interface 
  * - Packages with robust, steadfast integration
  * - Easy execution
  * - Made with ❤ for Github Repositories
@@ -57,5 +56,7 @@ geckoDev.prototype.run = (function(){
   if(this.run instanceof === packages(this.run)){ 
     this.run = packages.components.parse('inside');
   }
+  
+  /** @protected **/
   return this.run;
 });
