@@ -15,7 +15,7 @@ var gecko = require('./firefox/gecko-dev');
 
 /**
  * @constructor packages
- * @param {packages.gecko.req}, {components}
+ * @param {packages.gecko.req} 
  **/ 
 geckoDev.prototype.packages = (function(){
   var install = this.install;
@@ -36,9 +36,9 @@ geckoDev.prototype.packages = (function(){
  * @parameters {packages.gecko.run}
  **/ 
 geckoDev.prototype.build = (function(){
-  var buildPkg = this.buildPkg;
+    var buildPkg = this.buildPkg;
   
-  packages.append(this.buildPkg);
+    packages.append(this.buildPkg);
   }
 });
 /** 
