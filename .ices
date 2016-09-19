@@ -10,3 +10,4 @@
 @packages.comet-develop
  ./develop.js
  ./examples/button.js
+@packages.access 
