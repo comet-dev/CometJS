@@ -6,12 +6,12 @@ var usr = "usr/login";
     elements.load("Organizing...");
  }
  JSON.getElementsByName('package.json'); 
-}
+};
 
 function init(e){
   organize('package.json', '.ices');
   e.require("comet/package.js");
   e.file("build.js");
-}
+};
 init("repo/package.json");
 
