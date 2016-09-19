@@ -23,7 +23,7 @@
     "coveralls":"2.11.9"
   },
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint package.js",
+    "test": "./node_modules/jshint/bin/jshint main.js",
     "start": "./node_modules/jshint/bin/jshint comet"
   },
   "keywords": [
