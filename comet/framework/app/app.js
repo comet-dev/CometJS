@@ -35,6 +35,18 @@ if(typeof app.access.getUser('') === true){
  app.access.confirm('You are now logged in to your app.');
 }
 
+application.prototype.render = (function(){
+  var render = this.render;
+  
+  if(app.access || app.parent + this.render){
+   this.render.push(app);
+  } else {
+   this.render = false;
+   app.access = false;
+   console.error('Unable to access owner');
+  }
+  this.render.start = ;
+});
 app.window.open(app);
 
 app.on("build");
