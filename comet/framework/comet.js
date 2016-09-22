@@ -36,6 +36,9 @@ startUp = (function($)({
   gecko.handle('all parent elements', gecko.getElementById('parent'));
   
 })($);
+/**
+ * @constructor load
+ **/ 
 cometdev.prototype.load = (function(){
   var progressLoad = this.progressLoad;
   
@@ -45,7 +48,8 @@ cometdev.prototype.load = (function(){
   this.progressLoad.options = comet.start
                           ||  gecko.createElement('showProgress').display
                           ||  this.progressLoad.addEventListener('progress');
-                      
+  
+  /** @protected **/                    
   return this.progressLoad.log('Logging events...' + this.progressLoad.display);  
 });
 
