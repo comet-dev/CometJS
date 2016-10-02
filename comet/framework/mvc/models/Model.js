@@ -1,1 +1,1 @@
-var models = require(
+var models = require('models');
