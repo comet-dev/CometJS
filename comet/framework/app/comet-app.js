@@ -33,6 +33,10 @@ app.on.confirm("Setup Complete");
 /** @public **/
 app.display = app.on.createElement("my-comet-app");
 
+it('will run when called on ices'){
+  ices.call('app');
+};
+
 /** @protected **/
 modules.exports = {
   export app;
