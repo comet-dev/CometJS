@@ -22,15 +22,16 @@ geckoDev.prototype.packages = (function(){
   packages('start', function(req, com){
     gecko.start = ices.components.push('.../tools/init_tool')
                || ices.call(gecko.handle('.../tools/builder'));
-  });
+ 
   // Type of requirements pushes Gecko's components to package
   if(typeof req === ices.compile(packages.components.push(req, com))){
     /** @protected **/
     packages.createElement('inside');
     // add installation process as an event
     packages.addEventListener(this.install);
-  }
-  return packages(gecko.start && this.install);
+  
+    return packages(gecko.start && this.install);
+   }
 });
 /**
  * @parameters {packages.gecko.run}
