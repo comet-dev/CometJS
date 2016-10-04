@@ -45,7 +45,7 @@ application.prototype.render = (function(){
    app.access = false;
    console.error('Unable to access owner');
   }
-  this.render.start = ;
+  this.render.start = new this.render;
 });
 app.window.open(app);
 
