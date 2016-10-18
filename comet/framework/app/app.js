@@ -49,6 +49,8 @@ application.prototype.render = (function(){
 });
 app.window.open(app);
 
+app.require(application.render);
+
 app.on("build");
 /**
  * @overview Loading internal files to app/project.
@@ -69,3 +71,8 @@ app.load('desktop.js');
 /** @protected **/
 app.load('base.js');
 
+/** @protected **/
+app.load('render.js');
+
+/** @protected **/
+app.load('build.js');
