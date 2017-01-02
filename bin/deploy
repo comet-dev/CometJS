@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var usr;
+var usr = "";
 var ini = require(".../update.js");
 var deployJS = require("deploy");
 var comet = require(".../comet");
@@ -34,7 +34,7 @@ deploy = function(app){
   }
 }
 /**
- * 
+ * @class deploy
  **/
 onInstall = function(e){
   var server = require("ssl");
@@ -44,9 +44,11 @@ onInstall = function(e){
   e.configure(server.ini(e)&&process.argv("Installation" + "/n" e && process.argv("Settings").exec(comet.e));
 }
 
-onOpen = function(e){
-  window.open(onInstall(e));
-  window.open(deploy(""));
+onStartup = function(e){
+  if(typeof "comet app" === true){
+     window.open(onInstall(e));
+ }
+  window.open(deploy(e));
  }
 }
-onOpen("e");
+onStartup(deploy(usr.APP.appName("")));
