@@ -25,8 +25,8 @@ app.window.URL('1.100.COMET');
  **/ 
 app.access.createElement('app.private.command', 'app.public.command', 'app.protected.command');
 /**
- * @param {app.access} Set access point to app
- * 
+ * @param {app.access} 
+ * @overview Set access point to app.
  **/ 
 app.access.command('app.access.private','app.access.public', 'app.access.protected');
 app.access.getUser('');
@@ -55,6 +55,7 @@ app.on("build");
 /**
  * @overview Loading internal files to app/project.
  * @todo 
+ * Application Enhancments:
  * - Window Sizing
  * - App Compatibility
  **/
