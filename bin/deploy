@@ -25,11 +25,11 @@ deploy = function(app){
       app.create("Comet Packages").ini(usr.prompt("Add Comet package?")&& !require("New Server to Store").publish("New App"));
     } else if(deployMethods.web === true && deployMethods.cometPlatform&&deployMethods.desktop){
       app.require("./.comet").process.argv("$send")+require("New Comet Packages");
-      usr.prompt("App Has Been Deployed!")
+      usr.prompt("App Has Been Deployed!");
     } else if(app.send(deployMethods.windows) && app.usr.find("account").register()){
       usr.account.comet("").app("")&&app.register("Desktop");
     } else {
-      alert.status("Unable to deploy ");
+      alert.status("Unable to deploy");
     }
   }
 }
