@@ -37,6 +37,8 @@ it('will run when called on ices'){
   ices.call('app');
 };
 
+app.run('call', "my-comet-app");
+
 /** @protected **/
 modules.exports = {
   export app;
