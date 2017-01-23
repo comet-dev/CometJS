@@ -38,7 +38,7 @@ geckoDev.prototype.packages = (function(){
  **/ 
 geckoDev.prototype.build = (function(){
     var buildPkg = this.buildPkg;
-  
+    var getPrototypeOf = 
     packages.append(this.buildPkg);
   }
 });
